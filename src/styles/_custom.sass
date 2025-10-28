@@ -2,26 +2,161 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 10%
+    right: 70%
+    animation-delay: 0s;
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float1 4.2s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    top: 65%
+    right: 20%
+    animation-delay: 1s;
 
 @keyframes float1
   0%
     transform: translateY(20px)
   100%
     transform: translateY(0px)
+
+// Modulo versión escritorio/movil
+@media (min-width:1400px)
+  .movil2
+    display: inline
+@media (min-width: 992px)
+  .desktop 
+    display: inline
+  .movil 
+    display: none
+@media (max-width: 991px)
+  .movil 
+    display: inline
+  .desktop 
+    display: none
   
 .banner-principal
   .container.tarjeta
     background-image: url("../assets/curso/portada/fondo-banner-principal.png")
     background-size: cover
     background-position: center
+    @media (max-width: $bp-max-md)
+      background-image: url("../assets/curso/portada/fondo-banner-principal-md.png")
+    @media (max-width: $bp-max-xs)
+      background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png")
   
-.txt--green
-  color: #39A900 !important
+.boton *, .boton--sm *
+  color: #fff !important
+
+.boton:active *, .boton--sm:active *, .boton:focus *, .boton--sm:focus *, .boton:hover *, .boton--sm:hover *
+  color: #fff !important
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/fondo-paginas.png") !important
+
+.cajon.cajon.color-primario 
+  background-color: #DBE4F4
+  &::before
+    background-color: #B0C9F5
+
+.cajon.cajon.color-secundario 
+  background-color: #ECE1F9
+  &::before
+    background-color: #D5C6EA
+
+.titulo01
+  position: relative
+  left: -4%
+  background-color: #ECE1F9
+  border-radius: 20px
+  h3
+    color: black
+  @media screen and ( max-width: $bp-max-lg )
+    left: -3%
+  @media screen and ( max-width: $bp-max-sm )
+    left: -4%
+
+.titulo02
+  position: relative
+  left: -2%
+  background-color: #ECE1F9
+  border-radius: 20px
+  h3
+    color: black
+  @media screen and ( max-width: $bp-max-lg )
+    left: -3%
+  @media screen and ( max-width: $bp-max-sm )
+    left: -4%
+
+.style___box_1
+  border-radius: 5px
+  padding: 1.5rem
+
+.espacio___movil_1
+  @media screen and (max-width: 1200px)
+    margin-top: 2rem !important
+
+.tarjeta--BG01, .bg-c1 
+  background-size: cover
+  background-repeat: no-repeat
+
+// Módulo de tarjetas
+
+.tarjeta--BG01
+  background-image: url("../assets/curso/temas/tema1/fondo-slyder-BG01.png")
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.tarjeta
+  &--BG02
+    background-color: #DBE4F4
+
+//- Modulo slyder
+
+.tarjeta--slyder  
+  height: 100%
+  background-color: white
+  text-align: center
+
+.custom
+  .horizontal-scroll__wrapper
+    padding: 2rem 0.5rem
+.custom
+  .horizontal-scroll
+    align-items: stretch !important
+
+// Fondo de color
+
+.bg-c1 
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.bg
+  &-c1
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(232,234,252,1) 25%, rgba(238,230,251,1) 75%, rgba(255,255,255,1) 100%)
+
+.lista-ul li, ol.lista-ol li, .lista-ul--color li, .ol.lista-ol--cuadro li, .lista-ol--cuadro li, .lista-ul--separador li, .lista-ul li i
+  display: flex
+
+.tarjeta--C01
+  background-color: #ECE1F9
+  background-size: cover 
+  background-repeat: no-repeat
+  background-position: center
+
+.lista-ol--cuadro__vineta
+  color: #000 !important
+
+.tarjeta-numerada.color-acento-botones .tarjeta-numerada__numero, .linea-tiempo-d .tarjeta
+  background-color: #C4F7E8
+
+.tarjeta-numerada.color-acento-botones .tarjeta-numerada__numero div
+  color: #000 !important
+
+.linea-tiempo-d.color-acento-botones.especial
+  .linea-tiempo-d__item--selected
+    .linea-tiempo-d__item__content
+      background-color: #DBE4F4 !important 
+  .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+    background-color: #C4F7E8
