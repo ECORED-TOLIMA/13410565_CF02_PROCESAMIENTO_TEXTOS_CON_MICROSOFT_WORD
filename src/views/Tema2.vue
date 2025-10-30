@@ -5,14 +5,14 @@
     .titulo-principal.color-acento-contenido(data-aos="fade-right")
       .titulo-principal__numero
         span 2
-      h1 Referencias y bibliografía en microsoft Word
+      h1 Referencias y bibliografía en Microsoft Word
 
     .row.justify-content-center.mb-4
       .col-lg-3.col-md-6.col-8.mb-lg-0.mb-4(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema2/img-01.svg', alt='Imagen decorativa')
       .col-lg-9.mb-lg-0.mb-3(data-aos="fade-left")
-        p.mb-4 Cuando se elaboran documentos académicos, informes técnicos, trabajos escritos o artículos, es frecuente incluir información obtenida de otras fuentes, como libros, artículos, sitios web o informes digitales. Para #[b dar crédito a las fuentes consultadas] y mantener un estilo de citación ordenado, Microsoft Word incluye un #[b gestor de referencias integrado  ].
+        p.mb-4 Cuando se elaboran documentos académicos, informes técnicos, trabajos escritos o artículos, es frecuente incluir información obtenida de otras fuentes, como libros, artículos, sitios #[em web] o informes digitales. Para #[b dar crédito a las fuentes consultadas] y mantener un estilo de citación ordenado, Microsoft Word incluye un #[b gestor de referencias integrado].
         .cajon.cajon.color-primario.p-4.mb-4
           p.mb-0 Este gestor permite #[b almacenar la información bibliográfica] de cada fuente en un solo lugar, reutilizarla en diferentes documentos y generar automáticamente una lista de referencias al final. De esta manera, se evitan errores de transcripción, se ahorra tiempo y se garantiza un formato uniforme en todas las citas.
 
@@ -22,7 +22,7 @@
           img(src='@/assets/curso/temas/tema1/punto.svg', style="width: 10px" ,alt='').m-auto
       .col-lg-auto.col-9.titulo02(style="z-index:1")
         .p-1
-          h3.mb-0.ms-3 Importancia de las referencias y bibliografía:
+          h3.mb-0.ms-3 Importancia de las referencias y bibliografía
 
     .tarjeta.tarjeta--BG01.mb-5(data-aos="fade-right")
       .row.justify-content-center.align-items-center(data-aos="fade-down")
@@ -77,11 +77,11 @@
 
     .bg-c1.px-md-5.px-4.mb-0
       .row.justify-content-center.mb-4(data-aos="flip-up")
-        p Antes de insertar una cita en el texto, es necesario registrar la fuente en el #[b Administrador de referencias]. Word permite añadir fuentes de diferentes tipos, libros, artículos de revista, sitios web o documentos electrónicos. A continuación, se enumeran los pasos para agregar nueva fuente y se ilustran en la figura 7:
+        p Antes de insertar una cita en el texto, es necesario registrar la fuente en el #[b Administrador de referencias]. Word permite añadir fuentes de diferentes tipos, libros, artículos de revista, sitios #[em web] o documentos electrónicos. A continuación, se enumeran los pasos para agregar nueva fuente y se ilustran en la figura 7:
 
       .row.justify-content-center
         .col-lg-6.order-lg-1.order-2.mb-4(data-aos="fade-right")
-          .cajon.cajon.C01.p-4.mb-3
+          .cajon.cajon.C01.p-1.mb-3
             ol.lista-ol--cuadro.lista-ol--separador
               li(data-aos="fade-down")
                 .lista-ol--cuadro__vineta
@@ -94,7 +94,7 @@
               li(data-aos="fade-down")
                 .lista-ol--cuadro__vineta
                   span.text-bold 3
-                | Seleccionar el tipo de fuente (por ejemplo: libro, artículo de revista, sitio web).
+                span Seleccionar el tipo de fuente (por ejemplo: libro, artículo de revista, sitio #[em web]).
               li(data-aos="fade-down")
                 .lista-ol--cuadro__vineta
                   span.text-bold 4
@@ -190,7 +190,7 @@
               img(src='@/assets/curso/temas/tema1/punto.svg', style="width: 10px" ,alt='').m-auto
           .col-lg-auto.col-9.titulo02(style="z-index:1")
             .p-1
-              h3.mb-0.ms-3 Ejemplo de resultado:
+              h3.mb-0.ms-3 Ejemplo de resultado
         ul.lista-ul--color.mb-4
           li(data-aos="fade-left")
             i.fas.fa-hand-point-right
@@ -206,7 +206,7 @@
     Separador
 
     .titulo-segundo.color-acento-contenido
-      h2#t_2_3 2.3. Inserción de citas en el texto
+      h2#t_2_3 2.3. Generación automática de bibliografía
 
     .bg-c1.px-md-5.px-4.mb-0
       .row.justify-content-center.mb-4(data-aos="fade-left")
@@ -219,7 +219,7 @@
             img(src='@/assets/curso/temas/tema2/img-15.svg', alt='Imagen decorativa')
 
         .col-lg-7(data-aos="fade-left")
-          .cajon.cajon.C01.p-4.mb-3
+          .cajon.cajon.C01.p-0.mb-5
             ol.lista-ol--cuadro.lista-ol--separador
               li(data-aos="fade-down") 
                 .lista-ol--cuadro__vineta
@@ -263,7 +263,7 @@
               img(src='@/assets/curso/temas/tema1/punto.svg', style="width: 10px" ,alt='').m-auto
           .col-lg-auto.col-9.titulo02(style="z-index:1")
             .p-1
-              h3.mb-0.ms-3 Ejemplo de bibliografía generada automáticamente (APA):
+              h3.mb-0.ms-3 Ejemplo de bibliografía generada automáticamente (APA)
         ul.lista-ul--color.mb-4
           li(data-aos="fade-left")
             i.fas.fa-hand-point-right
@@ -275,14 +275,14 @@
         .cajon.cajon.color-primario.row.align-items-center.m-0.style___box_1(data-aos="zoom-in").espacio___movil_1
           .col-xl-auto(data-aos="fade-right")
             figure.d-none.d-xl-block
-              img(src='@/assets/curso/temas/tema2/img-14.svg', alt='').m-auto
+              img(src='@/assets/curso/temas/tema2/img-21.svg', alt='').m-auto
           .col-xl
             p.mb-0 Si se agregan o eliminan citas en el documento, la bibliografía se puede actualizar fácilmente con un solo clic derecho sobre la lista y seleccionando “Actualizar campos”.
 
     Separador
 
     .titulo-segundo.color-acento-contenido
-      h2#t_2_4 2.4. Inserción de citas en el texto
+      h2#t_2_4 2.4. Estilos de citación y actualización de fuentes
 
     p.mb-5(data-aos="fade-down") Word incluye varios #[b estilos de citación] reconocidos internacionalmente. Esto permite adaptar la presentación de citas y bibliografías a diferentes contextos académicos o profesionales. Los más comunes son:
 

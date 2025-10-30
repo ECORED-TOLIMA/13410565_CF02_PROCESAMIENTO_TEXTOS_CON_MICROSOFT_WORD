@@ -27,7 +27,7 @@
               img(src='@/assets/curso/temas/tema1/punto.svg', style="width: 10px" ,alt='').m-auto
           .col-lg-auto.col-9.titulo01(style="z-index:1")
             .p-1
-              h3.mb-0.ms-3 Importancia de las tablas de contenido:
+              h3.mb-0.ms-3 Importancia de las tablas de contenido
 
         ul.lista-ul--color.mb-4
           li(data-aos="fade-down")
@@ -155,7 +155,7 @@
           img(src='@/assets/curso/temas/tema3/img-09.svg' alt="Imagen decorativa")
           .tarjeta--boton.color-secundario.p-4.py-5.h-100(style="background-color:#DBE4F4;")
             h4.text-center.mt-5(style="color:#12263F") Nivel 3
-            p.text-center.mb-0(style="color:#12263F") Corresponde a “Título 3” —subapartados .
+            p.text-center.mb-0(style="color:#12263F") Corresponde a “Título 3” —subapartados.
 
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col-lg-10.col-12

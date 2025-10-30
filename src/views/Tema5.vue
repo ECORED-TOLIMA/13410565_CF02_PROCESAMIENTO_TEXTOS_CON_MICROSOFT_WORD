@@ -39,7 +39,7 @@
               img(src='@/assets/curso/temas/tema1/punto.svg', style="width: 10px" ,alt='').m-auto
           .col-lg-auto.col-9.titulo02(style="z-index:1")
             .p-1
-              h3.mb-0.ms-3 Importancia de las herramientas de revisión: 
+              h3.mb-0.ms-3 Importancia de las herramientas de revisión 
 
     .row.justify-content-center.mb-0
       .col-lg-6.order-lg-1.order-2
@@ -71,7 +71,7 @@
     .titulo-segundo.color-acento-contenido
       h2#t_5_1 5.1 Control de cambios
 
-    p(data-aos="fade-right") La herramienta Control de cambios permite que Word registre automáticamente todas las modificaciones realizadas en un documento. Esto incluye inserciones, eliminaciones, cambios de formato y comentarios, mostrando quién hizo cada ajuste y en qué momento.
+    p(data-aos="fade-right") La herramienta #[b Control de cambios] permite que Word registre automáticamente todas las modificaciones realizadas en un documento. Esto incluye inserciones, eliminaciones, cambios de formato y comentarios, mostrando quién hizo cada ajuste y en qué momento.
 
     .bg-c1.px-md-5.px-4.mb-0
       .row.justify-content-center.align-items-center.mb-5
@@ -83,11 +83,11 @@
               li(data-aos="fade-down") 
                 .lista-ol--cuadro__vineta
                   span.text-bold 1
-                | Ir a la pestaña “Revisar” en la cinta de opciones.
+                span Ir a la pestaña #[b “Revisar”] en la cinta de opciones.
               li(data-aos="fade-down") 
                 .lista-ol--cuadro__vineta
                   span.text-bold 2
-                span Hacer clic en “Control de cambios” para activarlo.
+                span Hacer clic en #[b “Control de cambios”] para activarlo.
               li(data-aos="fade-down")
                 .lista-ol--cuadro__vineta
                   span.text-bold 3
@@ -95,7 +95,7 @@
               li(data-aos="fade-down") 
                 .lista-ol--cuadro__vineta
                   span.text-bold 4
-                | Para aprobar o rechazar un cambio, usar las opciones “Aceptar” o “Rechazar” en la misma pestaña.
+                span Para aprobar o rechazar un cambio, usar las opciones #[b “Aceptar”] o #[b “Rechazar”] en la misma pestaña.
         .col-lg-4.col-8.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="fade-right")
           figure
             img(src='@/assets/curso/temas/tema5/img-15.png', alt='Imagen decorativa')
@@ -121,14 +121,14 @@
             figure.d-none.d-xl-block
               img(src='@/assets/curso/temas/tema5/img-06.svg', alt='').m-auto
           .col-xl
-            p.mb-0 Consejo: es posible personalizar la forma en que se muestran las marcas (en globos, en línea, por color) desde la opción “Control de cambios”, “Opciones de control de cambios”.
+            p.mb-0 #[b Consejo:] es posible personalizar la forma en que se muestran las marcas (en globos, en línea, por color) desde la opción “Control de cambios”, “Opciones de control de cambios”.
 
     Separador
 
     .titulo-segundo.color-acento-contenido
       h2#t_5_2 5.2 Comparación de documentos
 
-    p(data-aos="fade-down") La función Comparar documentos permite analizar dos versiones de un mismo archivo y visualizar sus diferencias de forma clara. Word genera un tercer documento que muestra los cambios detectados (inserciones, eliminaciones y modificaciones).
+    p(data-aos="fade-down") La función #[b Comparar documentos] permite analizar dos versiones de un mismo archivo y visualizar sus diferencias de forma clara. Word genera un #[b tercer documento] que muestra los cambios detectados (inserciones, eliminaciones y modificaciones).
     p(data-aos="fade-down") Para comparar dos documentos:  
 
     .tarjeta.tarjeta--BG01.mb-5(data-aos="flip-up")
@@ -156,7 +156,7 @@
             .tarjeta.tarjeta--slyder.p-4
               .row.justify-content-center.mb-3
                 .col-6.col-lg-8
-                  img(src="@/assets/curso/temas/tema4/img-11.svg", alt="alt").img100.m-auto
+                  img(src="@/assets/curso/temas/tema5/img-11.svg", alt="alt").img100.m-auto
               p 4. Presionar #[b Aceptar] para generar la comparación.
             .tarjeta.tarjeta--slyder.p-4
               .row.justify-content-center.mb-3
@@ -185,7 +185,7 @@
             figure.d-none.d-xl-block
               img(src='@/assets/curso/temas/tema5/img-14.svg', alt='').m-auto
           .col-xl
-            p.mb-0 Sugerencia: esta herramienta es útil cuando varias personas editan diferentes copias del mismo documento o cuando se quiere verificar qué cambios se hicieron entre versiones.
+            p.mb-0 #[b Sugerencia:] esta herramienta es útil cuando varias personas editan diferentes copias del mismo documento o cuando se quiere verificar qué cambios se hicieron entre versiones.
 
     .row.justify-content-center.align-items-center(data-aos="fade-down")           
       .col-lg-12

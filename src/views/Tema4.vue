@@ -38,7 +38,7 @@
               img(src='@/assets/curso/temas/tema1/punto.svg', style="width: 10px" ,alt='').m-auto
           .col-lg-auto.col-9.titulo02(style="z-index:1")
             .p-1
-              h3.mb-0.ms-3 Importancia de las plantillas:
+              h3.mb-0.ms-3 Importancia de las plantillas
 
         p(data-aos="fade-left") El uso de plantillas en Word ofrece múltiples ventajas tanto para estudiantes como para profesionales:
 

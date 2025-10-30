@@ -194,14 +194,15 @@ export default {
     {
       tema: '1. Tablas y figuras',
       referencia:
-        'Microsoft Support. (2023). Insertar y dar formato a tablas e imágenes.',
+        'Microsoft Support. (2023). <em>Insertar y dar formato a tablas e imágenes.</em>',
       tipo: 'Tutorial en línea',
       link:
         'https://support.microsoft.com/es-es/office/insertar-y-dar-formato-a-tablas-e-im%C3%A1genes-9e2be863-fcb8-4f20-af24-905121643da8',
     },
     {
       tema: '2. Figuras en Word',
-      referencia: 'Microsoft Learn. (2024). Imágenes y diagramas en Word.',
+      referencia:
+        'Microsoft Learn. (2024). <em>Imágenes y diagramas en Word.</em>',
       tipo: 'Artículo técnico',
       link:
         'https://support.microsoft.com/es-es/office/crear-un-diagrama-de-flujo-con-smartart-30f87402-ba3d-48c8-8e9f-a66bcee7e5aa',
@@ -209,7 +210,7 @@ export default {
     {
       tema: '3. Referencias y bibliografía',
       referencia:
-        'Microsoft Support. (2023). Agregar citas y una bibliografía en Word.',
+        'Microsoft Support. (2023). <em>Agregar citas y una bibliografía en Word.</em>',
       tipo: 'Tutorial en línea',
       link:
         'https://support.microsoft.com/es-es/office/crear-una-bibliograf%C3%ADa-citas-y-referencias-17686589-4824-4940-9c69-342c289fa2a5',
@@ -217,14 +218,15 @@ export default {
     {
       tema: '5.	Tabla de contenido',
       referencia:
-        'Microsoft Support. (2023). Insertar una tabla de contenido en Word.',
+        'Microsoft Support. (2023). <em>Insertar una tabla de contenido en Word.</em>',
       tipo: 'Tutorial en línea',
       link:
         'https://support.microsoft.com/es-es/office/insertar-una-tabla-de-contenido-882e8564-0edb-435e-84b5-1d8552ccf0c0',
     },
     {
       tema: '6.	Plantillas en Word',
-      referencia: 'Microsoft Learn. (2024). Working with templates in Word.',
+      referencia:
+        'Microsoft Learn. (2024). <em>Working with templates in Word.</em>',
       tipo: 'Artículo técnico',
       link:
         'https://learn.microsoft.com/es-es/power-platform/admin/using-word-templates-dynamics-365?tabs=new',
@@ -232,7 +234,7 @@ export default {
     {
       tema: '7.	Herramientas de revisión',
       referencia:
-        'Microsoft Support. (2023). Rastrear cambios, comentarios y comparar documentos.',
+        'Microsoft Support. (2023). <em>Rastrear cambios, comentarios y comparar documentos.</em>',
       tipo: 'Tutorial en línea',
       link:
         'https://support.microsoft.com/es-es/office/realizar-un-seguimiento-de-los-cambios-en-word-197ba630-0f5f-4a8e-9a77-3712475e806a',
@@ -267,7 +269,7 @@ export default {
     {
       termino: 'Fuente bibliográfica',
       significado:
-        'recurso de donde se extrae información (libro, artículo, web, etc.).',
+        'recurso de donde se extrae información (libro, artículo, <em>web</em>, etc.).',
     },
     {
       termino: 'Gestor de fuentes',

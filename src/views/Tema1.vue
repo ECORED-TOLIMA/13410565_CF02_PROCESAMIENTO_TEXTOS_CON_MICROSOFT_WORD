@@ -26,7 +26,7 @@
               img(src='@/assets/curso/temas/tema1/punto.svg', style="width: 10px" ,alt='').m-auto
           .col-lg-auto.col-9.titulo01(style="z-index:1")
             .p-1
-              h3.mb-0.ms-3 Importancia de las tablas y figuras
+              h4.mb-0.ms-3 Importancia de las tablas y figuras
 
         .cajon.cajon.C01.p-1.mb-3
           ol.lista-ol--cuadro.lista-ol--separador
@@ -59,10 +59,10 @@
       .row.justify-content-center
         .col-10
           figure.desktop
-            img(src='@/assets/curso/temas/tema1/img-03.png', alt='Figura 3 que relaciona la configuración de párrafo con interlineado doble y espaciado anterior y posterior en 0 pts.')
+            img(src='@/assets/curso/temas/tema1/img-03-01.svg', alt='Figura 3 que relaciona la configuración de párrafo con interlineado doble y espaciado anterior y posterior en 0 pts.')
       .col-12
         figure.movil
-          img(src='@/assets/curso/temas/tema1/img-03.png', alt='Figura 3 que relaciona la configuración de párrafo con interlineado doble y espaciado anterior y posterior en 0 pts.')
+          img(src='@/assets/curso/temas/tema1/img-03-01.svg', alt='Figura 3 que relaciona la configuración de párrafo con interlineado doble y espaciado anterior y posterior en 0 pts.')
 
     Separador
 
@@ -98,7 +98,7 @@
                 | Hacer clic para insertar la tabla en el documento.
         .col-lg-5.col-8.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="fade-right")
           figure
-            img(src='@/assets/curso/temas/tema1/img-20.png', alt='Imagen decorativa')
+            img(src='@/assets/curso/temas/tema1/img-21.png', alt='Imagen decorativa')
 
     .row.justify-content-center.mb-4(data-aos="fade-left")
       .col-lg-10.col-12
@@ -142,27 +142,27 @@
               .row.justify-content-center.mb-3
                 .col-6.col-lg-8
                   img(src="@/assets/curso/temas/tema1/img-06.svg", alt="alt").img100.m-auto
-              p Aplicar #[b estilos predeterminados] para cambiar bordes, sombreados y colores
+              p Aplicar #[b estilos predeterminados] para cambiar bordes, sombreados y colores.
             .tarjeta.tarjeta--slyder.p-4
               .row.justify-content-center.mb-3
                 .col-6.col-lg-8
                   img(src="@/assets/curso/temas/tema1/img-07.svg", alt="alt").img100.m-auto
-              p Combinar o dividir celdas para reorganizar la información
+              p Combinar o dividir celdas para reorganizar la información.
             .tarjeta.tarjeta--slyder.p-4
               .row.justify-content-center.mb-3
                 .col-6.col-lg-8
                   img(src="@/assets/curso/temas/tema1/img-08.svg", alt="alt").img100.m-auto
-              p Alinear el texto en el centro, izquierda, derecha o de manera vertical
+              p Alinear el texto en el centro, izquierda, derecha o de manera vertical.
             .tarjeta.tarjeta--slyder.p-4
               .row.justify-content-center.mb-3
                 .col-6.col-lg-8
                   img(src="@/assets/curso/temas/tema1/img-09.svg", alt="alt").img100.m-auto
-              p Cambiar el grosor o el color de los bordes
+              p Cambiar el grosor o el color de los bordes.
             .tarjeta.tarjeta--slyder.p-4
               .row.justify-content-center.mb-3
                 .col-6.col-lg-8
                   img(src="@/assets/curso/temas/tema1/img-10.svg", alt="alt").img100.m-auto
-              p Aplicar sombreado a filas o columnas para resaltar datos específicos
+              p Aplicar sombreado a filas o columnas para resaltar datos específicos.
 
     .row.justify-content-center.mb-4(data-aos="fade-down")
       .col-lg-10.col-12
@@ -215,7 +215,7 @@
               li(data-aos="fade-down")
                 .lista-ol--cuadro__vineta
                   span.text-bold 2
-                span Seleccionar #[b “Imágenes”] para cargar un archivo desde el computador o #[b “Imágenes en línea”] para buscar desde la web.
+                span Seleccionar #[b “Imágenes”] para cargar un archivo desde el computador o #[b “Imágenes en línea”] para buscar desde la #[em web].
               li(data-aos="fade-down") 
                 .lista-ol--cuadro__vineta
                   span.text-bold 3
@@ -267,7 +267,7 @@
             img(src='@/assets/curso/temas/tema1/img-17.svg', alt='Imagen decorativa')
 
         .col-lg-5(data-aos="fade-left")
-          .cajon.cajon.C01.p-4.mb-3
+          .cajon.cajon.C01.p-1.mb-4
             ol.lista-ol--cuadro.lista-ol--separador
               li 
                 .lista-ol--cuadro__vineta(data-aos="fade-down")
