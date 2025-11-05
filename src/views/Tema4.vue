@@ -220,6 +220,16 @@
           .col-xl
             p.mb-0 #[b Importante:] la plantilla no se modifica al usarla. Cada nuevo archivo creado a partir de ella es independiente y puede personalizarse sin alterar el original.
 
+    .row.align-items-center.mb-4(data-aos="zoom-in")
+      .col-auto.pe-0(style="z-index:2")
+        figure
+          img(src='@/assets/curso/temas/tema1/punto.svg', style="width: 10px" ,alt='').m-auto
+      .col-lg-auto.col-9.titulo02(style="z-index:1")
+        .p-1
+          h3.mb-0.ms-3 Ejercicio práctico 4:
+
+    p.mb-5 Por medio del siguiente video, podrá conocer paso a paso cómo crear una plantilla personalizada y cómo reutilizarla para estandarizar documentos.
+
     .row.justify-content-center.align-items-center(data-aos="fade-down")           
       .col-lg-12
         figure
