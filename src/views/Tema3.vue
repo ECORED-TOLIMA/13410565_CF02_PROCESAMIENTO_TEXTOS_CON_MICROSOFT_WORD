@@ -20,7 +20,7 @@
           img(src='@/assets/curso/temas/tema3/img-02.png', alt='Imagen decorativa')
 
       .col-lg-6(data-aos="fade-left")
-        p La tabla de contenido actúa como un “mapa” que  #[b resume la estructura del texto], mostrando los encabezados principales y sus ubicaciones dentro del documento. Además, estos índices son interactivos: al hacer clic en cualquiera de sus elementos, el usuario puede desplazarse directamente a la sección correspondiente.
+        p La tabla de contenido actúa como un “mapa” que resume la estructura del texto, mostrando los encabezados principales y sus ubicaciones dentro del documento. Además, estos índices son interactivos: al hacer clic en cualquiera de sus elementos, el usuario puede desplazarse directamente a la sección correspondiente.
         .row.align-items-center.mb-4(data-aos="zoom-in")
           .col-auto.pe-0(style="z-index:2")
             figure
@@ -46,6 +46,10 @@
             i.fas.fa-hand-point-right
             p.mb-0 Mantienen sincronía automática con los títulos reales del documento.
 
+    .row.justify-content-center.mb-3(data-aos="fade-left")
+      .col-lg-10.col-12
+        p A continuación se presenta un ejemplo de tabla de contenido automática generada por Word, que organiza títulos y subtítulos con sus respectivas páginas.
+
     .row.justify-content-center.mb-0(data-aos="flip-up")
       .col-lg-10.col-12
         .titulo-sexto.color-acento-contenido
@@ -55,10 +59,10 @@
       .row.justify-content-center
         .col-10
           figure.desktop
-            img(src='@/assets/curso/temas/tema3/img-03.png', alt='La figura 11 muestra un ejemplo final de la Tabla de Contenido de Microsoft Word, utilizada para proveer una estructura jerárquica y navegable de los contenidos al mostrar los títulos y números de página.')
+            img(src='@/assets/curso/temas/tema3/img-22.png', alt='Figura 11 que representa una tabla de contenido en Word con niveles jerárquicos y numeración de página alineada a la derecha.')
       .col-12
         figure.movil
-          img(src='@/assets/curso/temas/tema3/img-03.png', alt='La figura 11 muestra un ejemplo final de la Tabla de Contenido de Microsoft Word, utilizada para proveer una estructura jerárquica y navegable de los contenidos al mostrar los títulos y números de página.')
+          img(src='@/assets/curso/temas/tema3/img-22.png', alt='Figura 11 que representa una tabla de contenido en Word con niveles jerárquicos y numeración de página alineada a la derecha.')
 
     Separador
 
@@ -73,7 +77,7 @@
         p.mb-0 Word permite generar una tabla de contenido de #[b forma automática] si previamente se han aplicado estilos de título a los encabezados del documento. Esto significa que no es necesario crearla manualmente ni escribir los números de página: la herramienta detecta los estilos jerárquicos y construye el índice de manera ordenada.
         br
         br
-        p Antes de crear la tabla, es importante verificar que todos los títulos y subtítulos tengan asignado un estilo de título adecuado, ya que #[b solo los textos con estilos de título aparecerán en la tabla de contenido].
+        p Antes de crear la tabla, es importante verificar que todos los títulos y subtítulos tengan asignado un estilo de título adecuado, ya que #[b solo los textos con estilos de título] aparecerán en la tabla de contenido.
 
     .bg-c1.px-md-5.px-4.mb-0
       .row.justify-content-center.mb-4
@@ -106,6 +110,10 @@
                 span.text-bold 5
               | Word insertará la tabla de contenido con los títulos y números de página correspondientes.
 
+    .row.justify-content-center.mb-3(data-aos="fade-left")
+      .col-lg-10.col-12
+        p La figura a continuación ejemplifica las opciones del menú Tabla de contenido, desde donde se puede insertar una versión automática o manual.
+
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col-lg-10.col-12
         .titulo-sexto.color-acento-contenido
@@ -115,10 +123,10 @@
       .row.justify-content-center
         .col-10
           figure.desktop
-            img(src='@/assets/curso/temas/tema3/img-05.png', alt='La figura 12 muestra el botón "Tabla de contenido" dentro de la pestaña Referencias de Word, utilizada para crear un índice automáticamente al reconocer los estilos de título aplicados en el documento.')
+            img(src='@/assets/curso/temas/tema3/img-23.png', alt='Figura 12 que describe el menú desplegable de Word con las plantillas integradas para crear una tabla de contenido.')
       .col-12
         figure.movil
-          img(src='@/assets/curso/temas/tema3/img-05.png', alt='La figura 12 muestra el botón "Tabla de contenido" dentro de la pestaña Referencias de Word, utilizada para crear un índice automáticamente al reconocer los estilos de título aplicados en el documento.')
+          img(src='@/assets/curso/temas/tema3/img-23.png', alt='Figura 12 que describe el menú desplegable de Word con las plantillas integradas para crear una tabla de contenido.')
 
     .row.justify-content-center.mb-0
       .col-xl-10
@@ -162,38 +170,42 @@
         p Esta jerarquía permite #[b crear índices claros y organizados], en los que se puede distinguir visualmente entre secciones, subsecciones y detalles más específicos.
         p Para personalizar la tabla de contenido:
 
-    .tarjeta.tarjeta--BG01.mb-5(data-aos="flip-up")
-      .row.justify-content-center.align-items-center(data-aos="fade-down")
-        .col-lg-4.d-none.d-lg-block
-          figure(data-aos="zoom-in")
-            img(src="@/assets/curso/temas/tema3/img-10.png", alt="alt")
+    .tarjeta--BG01.px-md-5.p-lg-0.p-4.mb-5
+      .row.justify-content-center.align-items-center.my-lg-5.my-4
+        .col-lg-4.col-md-8.col-sm-6.mb-md-4.mb-sm-4.desktop
+          figure
+            img(src="@/assets/curso/temas/tema3/img-10.png", alt="alt" style='margin-bottom: -23px;')
         .col-lg-8
-          SlyderF.custom.color-acento-botones(columnas="col-lg-6 col-xl-4")
-            .tarjeta.tarjeta--slyder.p-4
+          SlyderF.custom.color-acento-botones(columnas="col-lg-4 col-xl-4")
+            .tarjeta.bgslyder.p-4
               .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/temas/tema3/img-11.svg", alt="alt").img100.m-auto
-              p 1. Hacer clic sobre la tabla existente.
-            .tarjeta.tarjeta--slyder.p-4
+                .col-7
+                  img(src="@/assets/curso/temas/tema3/img-11.svg", alt="alt")
+              p.text-center 1. Hacer clic sobre la tabla existente.
+            .tarjeta.bgslyder.p-4
               .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/temas/tema3/img-12.svg", alt="alt").img100.m-auto
-              p 2. Seleccionar la opción #[b “Tabla de contenido personalizada…”].
-            .tarjeta.tarjeta--slyder.p-4
+                .col-7
+                  img(src="@/assets/curso/temas/tema3/img-12.svg", alt="alt")
+              p.text-center 2. Seleccionar la opción #[b “Tabla de contenido personalizada…”].
+            .tarjeta.bgslyder.p-4
               .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/temas/tema3/img-13.svg", alt="alt").img100.m-auto
-              p 3. En el cuadro de diálogo, definir cuántos niveles de títulos desea incluir.
-            .tarjeta.tarjeta--slyder.p-4
+                .col-7
+                  img(src="@/assets/curso/temas/tema3/img-13.svg", alt="alt")
+              p.text-center 3. En el cuadro de diálogo, definir cuántos niveles de títulos desea incluir.
+            .tarjeta.bgslyder.p-4
               .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/temas/tema3/img-14.svg", alt="alt").img100.m-auto
-              p 4. Puede modificar la alineación, los puntos de tabulación y el estilo de numeración de páginas.
-            .tarjeta.tarjeta--slyder.p-4
+                .col-7
+                  img(src="@/assets/curso/temas/tema3/img-14.svg", alt="alt")
+              p.text-center 4. Puede modificar la alineación, los puntos de tabulación y el estilo de numeración de páginas.
+            .tarjeta.bgslyder.p-4
               .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/temas/tema3/img-15.svg", alt="alt").img100.m-auto
-              p 5. Confirmar con #[b Aceptar].
+                .col-7
+                  img(src="@/assets/curso/temas/tema3/img-15.svg", alt="alt")
+              p.text-center 5. Confirmar con #[b Aceptar].
+
+    .row.justify-content-center.mb-3(data-aos="fade-left")
+      .col-lg-10.col-12
+        p A continuación se incluye la figura que muestra el cuadro de diálogo utilizado para personalizar el formato y los niveles de la tabla de contenido.
 
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col-lg-10.col-12
@@ -204,10 +216,10 @@
       .row.justify-content-center
         .col-10
           figure.desktop
-            img(src='@/assets/curso/temas/tema3/img-16.png', alt='La figura 13 muestra el diálogo "Tabla de contenido personalizada" de Microsoft Word, utilizada para ajustar el número de niveles jerárquicos que se desean incluir al controlar la extensión y el detalle del índice.')
+            img(src='@/assets/curso/temas/tema3/img-24.png', alt='Figura 13 que corresponde a la ventana de configuración de tabla de contenido personalizada con opciones para formato, niveles y vista previa.')
       .col-12
         figure.movil
-          img(src='@/assets/curso/temas/tema3/img-16.png', alt='La figura 13 muestra el diálogo "Tabla de contenido personalizada" de Microsoft Word, utilizada para ajustar el número de niveles jerárquicos que se desean incluir al controlar la extensión y el detalle del índice.')
+          img(src='@/assets/curso/temas/tema3/img-24.png', alt='Figura 13 que corresponde a la ventana de configuración de tabla de contenido personalizada con opciones para formato, niveles y vista previa.')
 
     .row.justify-content-center.mb-0
       .col-xl-10
@@ -249,6 +261,10 @@
                 span.text-bold 4
               | Confirmar para que los cambios se apliquen automáticamente.
 
+    .row.justify-content-center.mb-3(data-aos="fade-left")
+      .col-lg-10.col-12
+        p La siguiente figura ilustra cómo acceder a la opción para actualizar los campos de una tabla de contenido después de realizar cambios en el texto.
+
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col-lg-10.col-12
         .titulo-sexto.color-acento-contenido
@@ -258,10 +274,10 @@
       .row.justify-content-center
         .col-10
           figure.desktop
-            img(src='@/assets/curso/temas/tema3/img-18.png', alt='La figura 14 muestra el menú "Actualizar campos" de Microsoft Word, utilizada para sincronizar los números de página y el texto del índice al reflejar los cambios recientes del documento.')
+            img(src='@/assets/curso/temas/tema3/img-25.png', alt='Figura 14 que representa la opción “Actualizar campos” del menú contextual de una tabla de contenido en Word.')
       .col-12
         figure.movil
-          img(src='@/assets/curso/temas/tema3/img-18.png', alt='La figura 14 muestra el menú "Actualizar campos" de Microsoft Word, utilizada para sincronizar los números de página y el texto del índice al reflejar los cambios recientes del documento.')
+          img(src='@/assets/curso/temas/tema3/img-25.png', alt='Figura 14 que representa la opción “Actualizar campos” del menú contextual de una tabla de contenido en Word.')
 
     .row.justify-content-center.mb-5
       .col-xl-10
@@ -271,6 +287,16 @@
               img(src='@/assets/curso/temas/tema3/img-19.svg', alt='').m-auto
           .col-xl
             p.mb-0 #[b Recomendación:] actualice siempre la tabla antes de entregar o compartir un documento final, para asegurar que todos los títulos y páginas estén sincronizados.
+
+    .row.align-items-center.mb-4(data-aos="zoom-in")
+      .col-auto.pe-0(style="z-index:2")
+        figure
+          img(src='@/assets/curso/temas/tema1/punto.svg', style="width: 10px" ,alt='').m-auto
+      .col-lg-auto.col-9.titulo02(style="z-index:1")
+        .p-1
+          h3.mb-0.ms-3 Ejercicio práctico 3:
+
+    p.mb-5 Por medio del siguiente video, podrá conocer paso a paso cómo crear, personalizar y actualizar una tabla de contenido en Microsoft Word.
 
     .row.justify-content-center.align-items-center(data-aos="fade-down")           
       .col-lg-12

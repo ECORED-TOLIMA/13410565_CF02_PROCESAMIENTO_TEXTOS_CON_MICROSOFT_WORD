@@ -24,38 +24,42 @@
         .p-1
           h3.mb-0.ms-3 Importancia de las referencias y bibliografía
 
-    .tarjeta.tarjeta--BG01.mb-5(data-aos="fade-right")
-      .row.justify-content-center.align-items-center(data-aos="fade-down")
-        .col-lg-4.d-none.d-lg-block
-          figure(data-aos="zoom-in")
-            img(src="@/assets/curso/temas/tema2/img-07.png", alt="alt")
+    .tarjeta--BG01.px-md-5.p-lg-0.p-4.mb-5
+      .row.justify-content-center.align-items-center.my-lg-5.my-4
+        .col-lg-4.col-md-8.col-sm-6.mb-md-4.mb-sm-4.desktop
+          figure
+            img(src="@/assets/curso/temas/tema2/img-07.png", alt="alt" style='margin-bottom: -23px;')
         .col-lg-8
-          SlyderF.custom.color-acento-botones(columnas="col-lg-6 col-xl-4")
-            .tarjeta.tarjeta--slyder.p-4
+          SlyderF.custom.color-acento-botones(columnas="col-lg-4 col-xl-4")
+            .tarjeta.bgslyder.p-4
               .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/temas/tema2/img-02.svg", alt="alt").img100.m-auto
-              p Permiten dar crédito a las fuentes de información utilizadas.
-            .tarjeta.tarjeta--slyder.p-4
+                .col-7
+                  img(src="@/assets/curso/temas/tema2/img-02.svg", alt="alt")
+              p.text-center Permiten dar crédito a las fuentes de información utilizadas.
+            .tarjeta.bgslyder.p-4
               .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/temas/tema2/img-03.svg", alt="alt").img100.m-auto
-              p Evitan el plagio y respaldan la credibilidad de un documento.
-            .tarjeta.tarjeta--slyder.p-4
+                .col-7
+                  img(src="@/assets/curso/temas/tema2/img-03.svg", alt="alt")
+              p.text-center Evitan el plagio y respaldan la credibilidad de un documento.
+            .tarjeta.bgslyder.p-4
               .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/temas/tema2/img-04.svg", alt="alt").img100.m-auto
-              p Facilitan la creación de bibliografías con un solo clic.
-            .tarjeta.tarjeta--slyder.p-4
+                .col-7
+                  img(src="@/assets/curso/temas/tema2/img-04.svg", alt="alt")
+              p.text-center Facilitan la creación de bibliografías con un solo clic.
+            .tarjeta.bgslyder.p-4
               .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/temas/tema2/img-05.svg", alt="alt").img100.m-auto
-              p Aseguran uniformidad en el estilo de citación.
-            .tarjeta.tarjeta--slyder.p-4
+                .col-7
+                  img(src="@/assets/curso/temas/tema2/img-05.svg", alt="alt")
+              p.text-center Aseguran uniformidad en el estilo de citación.
+            .tarjeta.bgslyder.p-4
               .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/temas/tema2/img-06.svg", alt="alt").img100.m-auto
-              p Aceleran el trabajo editorial y de investigación.
+                .col-7
+                  img(src="@/assets/curso/temas/tema2/img-06.svg", alt="alt")
+              p.text-center Aceleran el trabajo editorial y de investigación.
+
+    .row.justify-content-center.mb-4(data-aos="fade-right")
+      .col-lg-12.col-12
+        p La figura a continuación ejemplifica la pestaña Referencias, donde se concentran las funciones para insertar citas, administrar fuentes y generar bibliografías.
 
     .row.justify-content-center.mb-0(data-aos="flip-up")
       .col-lg-12.col-12
@@ -65,10 +69,10 @@
       .row.justify-content-center
         .col-12
           figure.desktop
-            img(src='@/assets/curso/temas/tema2/img-08.png', alt='La imagen de la figura 6 muestra la pestaña “Referencias” de Microsoft Word, con las opciones para insertar citas, administrar fuentes, elegir el estilo de citación y generar la bibliografía automáticamente.')
+            img(src='@/assets/curso/temas/tema2/img-22.png', alt='Figura 6 que hace referencia a la pestaña Referencias de Word, con las herramientas para gestionar citas, fuentes y bibliografía.')
       .col-12
         figure.movil
-          img(src='@/assets/curso/temas/tema2/img-08.png', alt='La imagen de la figura 6 muestra la pestaña “Referencias” de Microsoft Word, con las opciones para insertar citas, administrar fuentes, elegir el estilo de citación y generar la bibliografía automáticamente.')
+          img(src='@/assets/curso/temas/tema2/img-22.png', alt='Figura 6 que hace referencia a la pestaña Referencias de Word, con las herramientas para gestionar citas, fuentes y bibliografía.')
 
     Separador
 
@@ -77,7 +81,8 @@
 
     .bg-c1.px-md-5.px-4.mb-0
       .row.justify-content-center.mb-4(data-aos="flip-up")
-        p Antes de insertar una cita en el texto, es necesario registrar la fuente en el #[b Administrador de referencias]. Word permite añadir fuentes de diferentes tipos, libros, artículos de revista, sitios #[em web] o documentos electrónicos. A continuación, se enumeran los pasos para agregar nueva fuente y se ilustran en la figura 7:
+        p Antes de insertar una cita en el texto, es necesario registrar la fuente en el administrador de referencias. Word permite añadir fuentes de diferentes tipos: libros, artículos de revista, sitios #[em web], documentos electrónicos, entre otros.
+        p Para agregar una nueva fuente:
 
       .row.justify-content-center
         .col-lg-6.order-lg-1.order-2.mb-4(data-aos="fade-right")
@@ -107,6 +112,10 @@
         .col-lg-4.col-8.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="fade-left")
           figure
             img(src='@/assets/curso/temas/tema2/img-09.svg', alt='Imagen decorativa')
+
+    .row.justify-content-center.mb-4(data-aos="fade-right")
+      .col-lg-10.col-12
+        p A continuación se incluye la figura que muestra la ventana destinada a agregar o editar una nueva fuente bibliográfica conforme a las normas APA.
         
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col-lg-10.col-12
@@ -117,10 +126,10 @@
       .row.justify-content-center
         .col-10
           figure.desktop
-            img(src='@/assets/curso/temas/tema2/img-10.png', alt='La figura 7 muestra la ventana “Crear fuente” de Microsoft Word, utilizada para registrar los datos bibliográficos de un libro (autor, título, año, ciudad y editorial) al agregar una nueva referencia.')
+            img(src='@/assets/curso/temas/tema2/img-23.png', alt='Figura 7 que corresponde a la ventana Crear fuente de Word con campos para ingresar autor, título, año, ciudad y editorial.')
       .col-12
         figure.movil
-          img(src='@/assets/curso/temas/tema2/img-10.png', alt='La figura 7 muestra la ventana “Crear fuente” de Microsoft Word, utilizada para registrar los datos bibliográficos de un libro (autor, título, año, ciudad y editorial) al agregar una nueva referencia.')
+          img(src='@/assets/curso/temas/tema2/img-23.png', alt='Figura 7 que corresponde a la ventana Crear fuente de Word con campos para ingresar autor, título, año, ciudad y editorial.')
 
     .row.justify-content-center.mb-3(data-aos="fade-left")
       .col-lg-10.col-12
@@ -133,7 +142,7 @@
             figure.d-none.d-xl-block
               img(src='@/assets/curso/temas/tema2/img-11.svg', alt='').m-auto
           .col-xl
-            p.mb-0 Sugerencia: llenar todos los campos posibles mejora la precisión y consistencia de las referencias generadas.
+            p.mb-0 #[b Sugerencia:] llenar todos los campos posibles mejora la precisión y consistencia de las referencias generadas.
 
     Separador
 
@@ -145,7 +154,8 @@
         figure
           img(src='@/assets/curso/temas/tema2/img-12.png', alt='Imagen decorativa')
       .col-lg-7.mb-lg-0.mb-4(data-aos="fade-left")
-        p.mb-4 Después de registrar las fuentes, Word permite #[b insertar citas directamente en el texto], siguiendo el estilo bibliográfico seleccionado (por ejemplo: APA, MLA, Chicago, ISO, etc.). Esto garantiza uniformidad y evita errores comunes en la citación manual.  Los pasos para realizarlo se presentan a continuación y se ilustran en la figura 8:
+        p Después de registrar las fuentes, Word permite #[b insertar citas directamente en el texto], siguiendo el estilo bibliográfico seleccionado (por ejemplo: APA, MLA, Chicago, ISO, etc.). Esto garantiza uniformidad y evita errores comunes en la citación manual.
+        p Para insertar una cita:
         .cajon.cajon.C01.mb-3
           ol.lista-ol--cuadro.lista-ol--separador
             li(data-aos="fade-down") 
@@ -169,6 +179,10 @@
                 span.text-bold 5
               | Word insertará automáticamente la cita con el formato elegido.
     
+    .row.justify-content-center.mb-3(data-aos="fade-left")
+      .col-lg-10.col-12
+        p La siguiente figura representa el procedimiento de inserción de una cita en el texto, utilizando una fuente previamente creada en el administrador de referencias.
+
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col-lg-10.col-12
         .titulo-sexto.color-acento-contenido
@@ -177,10 +191,10 @@
       .row.justify-content-center
         .col-10
           figure.desktop
-            img(src='@/assets/curso/temas/tema2/img-13.png', alt='En la figura 8 presenta la Inserción Dinámica de Citas: Representa la lista de fuentes disponibles al hacer clic en "Insertar cita", demostrando cómo aplicar una cita directamente en el texto con el formato bibliográfico elegido, garantizando uniformidad y evitando errores manuales.')
+            img(src='@/assets/curso/temas/tema2/img-24.png', alt='Figura 8 que representa el menú Insertar cita en Word, con la fuente “García, L. (2022) Energías renovables: fundamentos y aplicaciones.”')
       .col-12
         figure.movil
-          img(src='@/assets/curso/temas/tema2/img-13.png', alt='En la figura 8 presenta la Inserción Dinámica de Citas: Representa la lista de fuentes disponibles al hacer clic en "Insertar cita", demostrando cómo aplicar una cita directamente en el texto con el formato bibliográfico elegido, garantizando uniformidad y evitando errores manuales.')
+          img(src='@/assets/curso/temas/tema2/img-24.png', alt='Figura 8 que representa el menú Insertar cita en Word, con la fuente “García, L. (2022) Energías renovables: fundamentos y aplicaciones.”')
 
     .row.justify-content-center.mb-0(data-aos="fade-right")
       .col-lg-10.col-12
@@ -242,6 +256,10 @@
                   span.text-bold 5
                 | Word insertará automáticamente la lista completa de referencias.
 
+    .row.justify-content-center.mb-3(data-aos="fade-left")
+      .col-lg-12.col-12
+        p A continuación se presenta la figura que muestra el menú de bibliografía, donde es posible insertar automáticamente las referencias asociadas a las citas del documento.
+
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col-lg-10.col-12
         .titulo-sexto.color-acento-contenido
@@ -250,10 +268,10 @@
       .row.justify-content-center
         .col-10
           figure.desktop
-            img(src='@/assets/curso/temas/tema2/img-16.png', alt='La figura 9  indica la forma de Generación Automática de Bibliografía: Muestra el menú "Bibliografía", que permite crear automáticamente la lista completa de referencias utilizadas en el documento con un solo clic, asegurando consistencia de formato.')
+            img(src='@/assets/curso/temas/tema2/img-25.png', alt='Figura 9 que describe el menú Bibliografía de Word, que incluye opciones integradas para generar referencias y trabajos citados.')
       .col-12
         figure.movil
-          img(src='@/assets/curso/temas/tema2/img-16.png', alt='La figura 9  indica la forma de Generación Automática de Bibliografía: Muestra el menú "Bibliografía", que permite crear automáticamente la lista completa de referencias utilizadas en el documento con un solo clic, asegurando consistencia de formato.')
+          img(src='@/assets/curso/temas/tema2/img-25.png', alt='Figura 9 que describe el menú Bibliografía de Word, que incluye opciones integradas para generar referencias y trabajos citados.')
 
     .row.justify-content-center.mb-0(data-aos="fade-right")
       .col-lg-10.col-12
@@ -341,6 +359,10 @@
                         span.text-bold 3
                       | Seleccionar el estilo deseado de la lista desplegable.
 
+    .row.justify-content-center.mb-3(data-aos="fade-left")
+      .col-lg-10.col-12
+        p La figura a continuación ilustra el menú desplegable de estilos de citación que permite seleccionar el formato requerido por las normas académicas.
+
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col-lg-10.col-12
         .titulo-sexto.color-acento-contenido
@@ -349,12 +371,22 @@
       .row.justify-content-center
         .col-10
           figure.desktop
-            img(src='@/assets/curso/temas/tema2/img-20.png', alt='En la figura 10 se Presenta el menú "Estilo", donde se puede seleccionar un estándar académico (APA, ISO 690, Chicago, etc.). El cambio se aplica automáticamente a todas las citas y referencias existentes, clave para la adaptación contextual.')
+            img(src='@/assets/curso/temas/tema2/img-26.png', alt='Figura 10 que hace referencia a la lista de estilos de citación disponibles en Word, incluyendo APA, Chicago, MLA, IEEE, entre otros.')
       .col-12
         figure.movil
-          img(src='@/assets/curso/temas/tema2/img-20.png', alt='En la figura 10 se Presenta el menú "Estilo", donde se puede seleccionar un estándar académico (APA, ISO 690, Chicago, etc.). El cambio se aplica automáticamente a todas las citas y referencias existentes, clave para la adaptación contextual.')
+          img(src='@/assets/curso/temas/tema2/img-26.png', alt='Figura 10 que hace referencia a la lista de estilos de citación disponibles en Word, incluyendo APA, Chicago, MLA, IEEE, entre otros.')
 
     p.mb-4.text-center(data-aos="fade-down") Este cambio se aplicará automáticamente a todas las citas y referencias ya insertadas, evitando tener que modificarlas una por una.
+
+    .row.align-items-center.mb-4(data-aos="zoom-in")
+      .col-auto.pe-0(style="z-index:2")
+        figure
+          img(src='@/assets/curso/temas/tema1/punto.svg', style="width: 10px" ,alt='').m-auto
+      .col-lg-auto.col-9.titulo02(style="z-index:1")
+        .p-1
+          h3.mb-0.ms-3 Ejercicio práctico 2:
+
+    p.mb-5 Por medio del siguiente video, podrá conocer paso a paso cómo agregar fuentes, insertar citas en el texto y generar una bibliografía automática en Microsoft Word.
 
     .row.justify-content-center.align-items-center(data-aos="fade-down")           
       .col-lg-12

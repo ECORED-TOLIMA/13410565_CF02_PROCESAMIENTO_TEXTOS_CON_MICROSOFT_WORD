@@ -51,7 +51,7 @@ export default {
           },
           {
             numero: '1.4',
-            titulo: 'Creación de títulos y fuentes de figuras y tablas',
+            titulo: 'Creación de títulos, fuentes de figuras y tablas',
             hash: 't_1_4',
           },
         ],

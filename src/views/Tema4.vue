@@ -16,6 +16,10 @@
           p.mb-0 Cuando se trabaja con documentos que deben mantener un formato uniforme —como informes, presentaciones, instructivos o cartas— es común repetir estructuras, estilos y formatos. Para evitar rehacer todo desde cero cada vez, Microsoft Word ofrece la opción de usar #[b plantillas], que son documentos base preconfigurados que pueden reutilizarse una y otra vez.
         p.mb-4 Una plantilla define #[b la estructura visual y funcional de un documento], incluyendo estilos de título, formato de texto, márgenes, encabezados, pies de página, tablas, gráficos, logotipos y otros elementos que se mantendrán igual en todos los archivos creados a partir de ella.
 
+    .row.justify-content-center.mb-3(data-aos="fade-left")
+      .col-lg-10.col-12
+        p A continuación se presenta la figura que ofrece una vista general de las plantillas prediseñadas disponibles al crear un nuevo documento.
+
     .row.justify-content-center.mb-4(data-aos="fade-left")
       .col-lg-10.col-12
         .titulo-sexto.color-acento-contenido
@@ -25,10 +29,10 @@
       .row.justify-content-center
         .col-10
           figure.desktop
-            img(src='@/assets/curso/temas/tema4/img-02.png', alt='La figura 15 muestra la galería de plantillas predeterminadas de Microsoft Word, utilizada para iniciar un documento con un diseño profesional al reutilizar formatos ya establecidos (currículums, informes entre otros).')
+            img(src='@/assets/curso/temas/tema4/img-20.png', alt='Figura 15 que representa la pestaña Nuevo de Word con diversas plantillas prediseñadas para currículos, calendarios y cartas')
       .col-12
         figure.movil
-          img(src='@/assets/curso/temas/tema4/img-02.png', alt='La figura 15 muestra la galería de plantillas predeterminadas de Microsoft Word, utilizada para iniciar un documento con un diseño profesional al reutilizar formatos ya establecidos (currículums, informes entre otros).')
+          img(src='@/assets/curso/temas/tema4/img-20.png', alt='Figura 15 que representa la pestaña Nuevo de Word con diversas plantillas prediseñadas para currículos, calendarios y cartas')
 
     .row.justify-content-center.mb-0(data-aos="fade-right")
       .col-lg-10.col-12
@@ -139,6 +143,10 @@
                   span.text-bold 7
                 | Asignar un nombre y confirmar la ubicación de guardado.
 
+    .row.justify-content-center.mb-3(data-aos="fade-left")
+      .col-lg-10.col-12
+        p La figura a continuación explica el procedimiento para guardar un documento como plantilla de Word en formato .dotx.
+
     .row.justify-content-center.mb-4(data-aos="fade-left")
       .col-lg-10.col-12
         .titulo-sexto.color-acento-contenido
@@ -148,10 +156,10 @@
       .row.justify-content-center
         .col-10
           figure.desktop
-            img(src='@/assets/curso/temas/tema4/img-12.png', alt='La figura 16 muestra la opción "Guardar como plantilla de Word (*.dotx)", utilizada para convertir un documento con formato propio en un molde reutilizable al establecer una base para futuros archivos.')
+            img(src='@/assets/curso/temas/tema4/img-21.png', alt='Figura 16 que hace referencia a la ventana Guardar como de Word con la opción seleccionada “Plantilla de Word (.dotx)”.')
       .col-12
         figure.movil
-          img(src='@/assets/curso/temas/tema4/img-12.png', alt='La figura 16 muestra la opción "Guardar como plantilla de Word (*.dotx)", utilizada para convertir un documento con formato propio en un molde reutilizable al establecer una base para futuros archivos.')
+          img(src='@/assets/curso/temas/tema4/img-21.png', alt='Figura 16 que hace referencia a la ventana Guardar como de Word con la opción seleccionada “Plantilla de Word (.dotx)”.')
 
     .row.justify-content-center.mb-0
       .col-xl-10
@@ -170,38 +178,38 @@
     p(data-aos="fade-down") Una vez creada, la plantilla puede ser utilizada tantas veces como sea necesario, manteniendo siempre la misma estructura y formato original. Esto resulta especialmente útil en documentos que requieren coherencia y repetición de elementos visuales o informativos.
     p.mb-4(data-aos="fade-down") Para usar una plantilla existente:
 
-    .tarjeta.tarjeta--BG01.mb-4(data-aos="flip-up")
-      .row.justify-content-center.align-items-center(data-aos="fade-down")
-        .col-lg-4.d-none.d-lg-block
-          figure(data-aos="zoom-in")
-            img(src="@/assets/curso/temas/tema4/img-13.png", alt="alt")
+    .tarjeta--BG01.px-md-5.p-lg-0.p-4.mb-5
+      .row.justify-content-center.align-items-center.my-lg-5.my-4
+        .col-lg-4.col-md-8.col-sm-6.mb-md-4.mb-sm-4.desktop
+          figure
+            img(src="@/assets/curso/temas/tema4/img-13.png", alt="alt" style='margin-bottom: -23px;')
         .col-lg-8
           SlyderF.custom.color-acento-botones(columnas="col-lg-6 col-xl-4")
-            .tarjeta.tarjeta--slyder.p-4
+            .tarjeta.bgslyder.p-4
               .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/temas/tema4/img-14.svg", alt="alt").img100.m-auto
-              p Abrir Microsoft Word.
-            .tarjeta.tarjeta--slyder.p-4
+                .col-7
+                  img(src="@/assets/curso/temas/tema4/img-14.svg", alt="alt")
+              p.text-center Abrir Microsoft Word.
+            .tarjeta.bgslyder.p-4
               .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/temas/tema4/img-15.svg", alt="alt").img100.m-auto
-              p Seleccionar #[b “Archivo” → “Nuevo”].
-            .tarjeta.tarjeta--slyder.p-4
+                .col-7
+                  img(src="@/assets/curso/temas/tema4/img-15.svg", alt="alt")
+              p.text-center Seleccionar #[b “Archivo” → “Nuevo”].
+            .tarjeta.bgslyder.p-4
               .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/temas/tema4/img-16.svg", alt="alt").img100.m-auto
-              p En la galería, elegir la plantilla deseada (propia o predeterminada).
-            .tarjeta.tarjeta--slyder.p-4
+                .col-7
+                  img(src="@/assets/curso/temas/tema4/img-16.svg", alt="alt")
+              p.text-center En la galería, elegir la plantilla deseada (propia o predeterminada).
+            .tarjeta.bgslyder.p-4
               .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/temas/tema4/img-17.svg", alt="alt").img100.m-auto
-              p Completar la información necesaria dentro de los campos establecidos.
-            .tarjeta.tarjeta--slyder.p-4
+                .col-7
+                  img(src="@/assets/curso/temas/tema4/img-17.svg", alt="alt")
+              p.text-center Completar la información necesaria dentro de los campos establecidos.
+            .tarjeta.bgslyder.p-4
               .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/temas/tema4/img-18.svg", alt="alt").img100.m-auto
-              p Guardar el documento final con un nombre distinto, para no sobrescribir la plantilla original.
+                .col-7
+                  img(src="@/assets/curso/temas/tema4/img-18.svg", alt="alt")
+              p.text-center Guardar el documento final con un nombre distinto, para no sobrescribir la plantilla original.
             
     .row.justify-content-center.mb-5
       .col-xl-10

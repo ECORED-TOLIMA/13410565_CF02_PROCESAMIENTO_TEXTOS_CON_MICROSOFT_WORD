@@ -99,6 +99,10 @@
   background-repeat: no-repeat
 
 // Módulo de tarjetas
+.tarjeta.bgslyder
+  background-color: #ffff 
+  padding: 1rem
+  margin: 1.5%
 
 .tarjeta--BG01
   background-image: url("../assets/curso/temas/tema1/fondo-slyder-BG01.png")
@@ -139,17 +143,22 @@
 .lista-ul li, ol.lista-ol li, .lista-ul--color li, .ol.lista-ol--cuadro li, .lista-ol--cuadro li, .lista-ul--separador li, .lista-ul li i
   display: flex
 
-.tarjeta--C01
-  background-color: #ECE1F9
+.tarjeta--C01, .tarjeta--C02
   background-size: cover 
   background-repeat: no-repeat
   background-position: center
+
+.tarjeta--C01
+  background-color: #ECE1F9
+  
+.tarjeta--C02
+  background-color: #DBE4F4
 
 .lista-ol--cuadro__vineta
   color: #000 !important
 
 .tarjeta-numerada.color-acento-botones .tarjeta-numerada__numero, .linea-tiempo-d .tarjeta
-  background-color: #C4F7E8
+  background-color: #7D4A01
 
 .tarjeta-numerada.color-acento-botones .tarjeta-numerada__numero div
   color: #000 !important
@@ -160,3 +169,21 @@
       background-color: #DBE4F4 !important 
   .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
     background-color: #C4F7E8 
+
+.titulo03
+  position: relative
+  left: -2%
+  background-color: #ECE1F9
+  border-radius: 20px
+  h3
+    color: black
+  @media screen and ( max-width: $bp-max-lg )
+    left: -3%
+  @media screen and ( max-width: $bp-max-sm )
+    left: -4%
+
+.tarjeta--gris
+  background-color: #7D4A01
+
+.tarjeta--gris > span
+  color: #ffff !important

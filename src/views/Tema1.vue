@@ -50,6 +50,10 @@
               .lista-ol--cuadro__vineta
                 span.text-bold 5
               | Facilitan la comparación de datos y conceptos.
+    
+    .row.justify-content-center.mb-4(data-aos="fade-right")
+      .col-lg-10.col-12
+        p A continuación, se presenta un ejemplo que combina una tabla con una figura dentro de un documento de Word, utilizado para organizar información y acompañarla con elementos visuales complementarios.
 
     .row.justify-content-center.mb-0(data-aos="fade-left")
       .col-lg-10.col-12
@@ -59,10 +63,10 @@
       .row.justify-content-center
         .col-10
           figure.desktop
-            img(src='@/assets/curso/temas/tema1/img-03-01.svg', alt='Figura 3 que relaciona la configuración de párrafo con interlineado doble y espaciado anterior y posterior en 0 pts.')
+            img(src='@/assets/curso/temas/tema1/img-22.png', alt='Figura 1 que representa un documento de Word con una tabla sobre carreras en energías renovables junto a una ilustración alusiva a la sostenibilidad.')
       .col-12
         figure.movil
-          img(src='@/assets/curso/temas/tema1/img-03-01.svg', alt='Figura 3 que relaciona la configuración de párrafo con interlineado doble y espaciado anterior y posterior en 0 pts.')
+          img(src='@/assets/curso/temas/tema1/img-22.png', alt='Figura 1 que representa un documento de Word con una tabla sobre carreras en energías renovables junto a una ilustración alusiva a la sostenibilidad.')
 
     Separador
 
@@ -73,7 +77,7 @@
       p(data-aos="fade-left") Las tablas son uno de los elementos más utilizados para #[b organizar datos y texto de manera estructurada]. A diferencia del texto corrido, permiten visualizar la información por categorías, fechas, valores, nombres, pasos de un proceso o cualquier otro criterio que requiera una organización clara. 
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-7.order-lg-1.order-2
-          p(data-aos="fade-right") Para insertar una tabla básica en Microsoft Word, es posible usar la cuadrícula visual que aparece al abrir la opción correspondiente. Este método permite definir, de forma rápida el número de filas y columnas que se necesitan. Se ilustra en la figura 2 y los pasos para insertar una tabla son:
+          p(data-aos="fade-right") Para insertar una tabla básica en Microsoft Word, es posible usar la cuadrícula visual que aparece al abrir la opción correspondiente. Este método permite definir, de forma rápida el número de filas y columnas que se necesitan.
           .cajon.cajon.C01.p-1.mb-3
             ol.lista-ol--cuadro.lista-ol--separador
               li(data-aos="fade-down") 
@@ -100,6 +104,10 @@
           figure
             img(src='@/assets/curso/temas/tema1/img-21.png', alt='Imagen decorativa')
 
+    .row.justify-content-center.mb-4(data-aos="fade-right")
+      .col-lg-10.col-12
+        p La figura a continuación ejemplifica el acceso al menú de inserción de tablas en Word, herramienta esencial para estructurar datos en filas y columnas.
+
     .row.justify-content-center.mb-4(data-aos="fade-left")
       .col-lg-10.col-12
         .titulo-sexto.color-acento-contenido
@@ -108,10 +116,10 @@
       .row.justify-content-center
         .col-10
           figure.desktop
-            img(src='@/assets/curso/temas/tema1/img-04.png', alt='La figura 2 muestra la pestaña “Insertar” de Microsoft Word, con el comando “Tabla” desplegado y la cuadrícula para seleccionar el número de filas y columnas. En el documento se visualiza una tabla insertada como ejemplo. ')
+            img(src='@/assets/curso/temas/tema1/img-23.png', alt='Figura 2 que representa el menú Insertar de Word con la opción para crear una tabla de seis por cinco celdas.')
       .col-12
         figure.movil
-          img(src='@/assets/curso/temas/tema1/img-04.png', alt='La figura 2 muestra la pestaña “Insertar” de Microsoft Word, con el comando “Tabla” desplegado y la cuadrícula para seleccionar el número de filas y columnas. En el documento se visualiza una tabla insertada como ejemplo. ')
+          img(src='@/assets/curso/temas/tema1/img-23.png', alt='Figura 2 que representa el menú Insertar de Word con la opción para crear una tabla de seis por cinco celdas.')
 
     .row.justify-content-center.mb-0
       .col-xl-10
@@ -131,38 +139,42 @@
     p(data-aos="fade-right") Al hacer clic en cualquier parte de la tabla, aparecen dos pestañas adicionales en la cinta de opciones: #[b “Diseño de tabla”] y #[b “Disposición de tabla”]. Desde allí, se pueden aplicar estilos predefinidos o personalizar manualmente.
     p.mb-5(data-aos="fade-left") Algunas acciones comunes para mejorar la apariencia de una tabla son:
 
-    .tarjeta.tarjeta--BG01.mb-5(data-aos="flip-up")
-      .row.justify-content-center.align-items-center(data-aos="fade-down")
-        .col-lg-4.d-none.d-lg-block
-          figure(data-aos="zoom-in")
-            img(src="@/assets/curso/temas/tema1/img-11.png", alt="alt")
+    .tarjeta--BG01.px-md-5.p-lg-0.p-4.mb-5
+      .row.justify-content-center.align-items-center.my-lg-5.my-4
+        .col-lg-4.col-md-8.col-sm-6.mb-md-4.mb-sm-4.desktop
+          figure
+            img(src='@/assets/curso/temas/tema1/img-11.png', alt='alt' style='margin-bottom: -23px;')
         .col-lg-8
-          SlyderF.custom.color-acento-botones(columnas="col-lg-6 col-xl-4")
-            .tarjeta.tarjeta--slyder.p-4
+          SlyderF.custom.color-acento-botones(columnas="col-lg-4 col-xl-4")
+            .tarjeta.bgslyder.p-4
               .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/temas/tema1/img-06.svg", alt="alt").img100.m-auto
-              p Aplicar #[b estilos predeterminados] para cambiar bordes, sombreados y colores.
-            .tarjeta.tarjeta--slyder.p-4
+                .col-7
+                  img(src="@/assets/curso/temas/tema1/img-06.svg", alt="alt")
+              p.text-center Aplicar #[b estilos predeterminados] para cambiar bordes, sombreados y colores.
+            .tarjeta.bgslyder.p-4
               .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/temas/tema1/img-07.svg", alt="alt").img100.m-auto
-              p Combinar o dividir celdas para reorganizar la información.
-            .tarjeta.tarjeta--slyder.p-4
+                .col-7
+                  img(src="@/assets/curso/temas/tema1/img-07.svg", alt="alt")
+              p.text-center Combinar o dividir celdas para reorganizar la información.
+            .tarjeta.bgslyder.p-4
               .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/temas/tema1/img-08.svg", alt="alt").img100.m-auto
-              p Alinear el texto en el centro, izquierda, derecha o de manera vertical.
-            .tarjeta.tarjeta--slyder.p-4
+                .col-7
+                  img(src="@/assets/curso/temas/tema1/img-08.svg", alt="alt")
+              p.text-center Alinear el texto en el centro, izquierda, derecha o de manera vertical.
+            .tarjeta.bgslyder.p-4
               .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/temas/tema1/img-09.svg", alt="alt").img100.m-auto
-              p Cambiar el grosor o el color de los bordes.
-            .tarjeta.tarjeta--slyder.p-4
+                .col-7
+                  img(src="@/assets/curso/temas/tema1/img-09.svg", alt="alt")
+              p.text-center Cambiar el grosor o el color de los bordes.
+            .tarjeta.bgslyder.p-4
               .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/temas/tema1/img-10.svg", alt="alt").img100.m-auto
-              p Aplicar sombreado a filas o columnas para resaltar datos específicos.
+                .col-7
+                  img(src="@/assets/curso/temas/tema1/img-10.svg", alt="alt")
+              p.text-center Aplicar sombreado a filas o columnas para resaltar datos específicos.
+
+    .row.justify-content-center.mb-4(data-aos="fade-right")
+      .col-lg-10.col-12
+        p A continuación se presenta la figura que describe las opciones de formato disponibles para tablas, útiles para personalizar su diseño y mejorar la legibilidad.
 
     .row.justify-content-center.mb-4(data-aos="fade-down")
       .col-lg-10.col-12
@@ -172,10 +184,10 @@
       .row.justify-content-center
         .col-10
           figure.desktop
-            img(src='@/assets/curso/temas/tema1/img-12.png', alt='En la figura 3 se presenta la Ventana de Microsoft Word con una tabla seleccionada y las pestañas “Diseño de tabla” y “Disposición de tabla” visibles en la cinta de opciones, que muestran las herramientas para aplicar estilos, bordes y sombreados a una tabla. ')
+            img(src='@/assets/curso/temas/tema1/img-24.png', alt='Figura 3 que muestra la pestaña Diseño de tabla de Word con las secciones de opciones de estilo de tabla, estilos de tabla y bordes.')
       .col-12
         figure.movil
-          img(src='@/assets/curso/temas/tema1/img-12.png', alt='En la figura 3 se presenta la Ventana de Microsoft Word con una tabla seleccionada y las pestañas “Diseño de tabla” y “Disposición de tabla” visibles en la cinta de opciones, que muestran las herramientas para aplicar estilos, bordes y sombreados a una tabla. ')
+          img(src='@/assets/curso/temas/tema1/img-24.png', alt='Figura 3 que muestra la pestaña Diseño de tabla de Word con las secciones de opciones de estilo de tabla, estilos de tabla y bordes.')
 
     .row.justify-content-center.mb-0
       .col-xl-10
@@ -229,6 +241,10 @@
                   span.text-bold 5
                 span Usar la opción #[b “Con ajuste de texto”] para definir cómo se distribuye el texto alrededor de la imagen.
 
+    .row.justify-content-center.mb-4(data-aos="fade-right")
+      .col-lg-10.col-12
+        p.text-center La siguiente figura ilustra las alternativas de ajuste de texto que permiten posicionar y organizar imágenes en un documento de Word. 
+        
     .row.justify-content-center.mb-4(data-aos="fade-left")
       .col-lg-10.col-12
         .titulo-sexto.color-acento-contenido
@@ -237,10 +253,10 @@
       .row.justify-content-center
         .col-10
           figure.desktop
-            img(src='@/assets/curso/temas/tema1/img-15.png', alt='La figura 4 muestra la Ventana de Microsoft Word con una imagen insertada y el panel “Opciones de diseño”, donde se configuran el ajuste de texto y la posición de la figura en el documento.')
+            img(src='@/assets/curso/temas/tema1/img-25.png', alt='Figura 4 que representa las opciones de diseño para ajustar una imagen en Word con el cursor sobre la opción “cuadrado” en la sección “con ajuste de texto”.')
       .col-12
         figure.movil
-          img(src='@/assets/curso/temas/tema1/img-15.png', alt='La figura 4 muestra la Ventana de Microsoft Word con una imagen insertada y el panel “Opciones de diseño”, donde se configuran el ajuste de texto y la posición de la figura en el documento.')
+          img(src='@/assets/curso/temas/tema1/img-25.png', alt='Figura 4 que representa las opciones de diseño para ajustar una imagen en Word con el cursor sobre la opción “cuadrado” en la sección “con ajuste de texto”.')
 
     .row.justify-content-center.mb-0
       .col-xl-10
@@ -254,12 +270,13 @@
     Separador
 
     .titulo-segundo.color-acento-contenido
-      h2#t_1_4 1.4. Creación de títulos y fuentes de figuras y tablas
+      h2#t_1_4 1.4. Creación de títulos, fuentes de figuras y tablas
 
     .bg-c1.px-md-5.px-4.mb-0
       .row.justify-content-center.mb-4(data-aos="fade-right")
         p Una práctica recomendada al trabajar con tablas o figuras es #[b asignarles un título o leyenda], ya que esto permite identificarlas fácilmente, hacer referencias dentro del documento y generar automáticamente un índice de ilustraciones, si es necesario.
-        p Word ofrece una herramienta sencilla para insertar títulos numerados, tanto en tablas como en figuras. Esto ayuda a mantener un orden visual y facilita la comprensión cuando hay varios elementos gráficos en un mismo texto.  Los pasos para insertar un título son:
+        p Word ofrece una herramienta sencilla para insertar títulos numerados, tanto en tablas como en figuras. Esto ayuda a mantener un orden visual y facilita la comprensión cuando hay varios elementos gráficos en un mismo texto.  
+        p Los pasos para insertar un título son:
 
       .row.justify-content-center
         .col-lg-5.col-sm-7.col-10.mb-4(data-aos="fade-left")
@@ -290,6 +307,10 @@
                   span.text-bold 5
                 span Confirmar con #[b “Aceptar”.]
 
+    .row.justify-content-center.mb-4(data-aos="fade-right")
+      .col-lg-10.col-12
+        p A continuación se presenta la figura que corresponde al cuadro de diálogo Insertar título, empleado para agregar rótulos a ilustraciones o tablas dentro de un documento.
+
     .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-10.col-12
         .titulo-sexto.color-acento-contenido
@@ -298,10 +319,10 @@
       .row.justify-content-center
         .col-10
           figure.desktop
-            img(src='@/assets/curso/temas/tema1/img-18.png', alt='La figura 5 muestra la Ventana “Título” de Microsoft Word que permite asignar un rótulo y número automático a una figura o tabla, especificando su posición y tipo de leyenda.')
+            img(src='@/assets/curso/temas/tema1/img-26.png', alt='Figura 5 que representa la ventana de Word utilizada para asignar un título o rótulo a una ilustración.')
       .col-12
         figure.movil
-          img(src='@/assets/curso/temas/tema1/img-18.png', alt='La figura 5 muestra la Ventana “Título” de Microsoft Word que permite asignar un rótulo y número automático a una figura o tabla, especificando su posición y tipo de leyenda.')
+          img(src='@/assets/curso/temas/tema1/img-26.png', alt='Figura 5 que representa la ventana de Word utilizada para asignar un título o rótulo a una ilustración.')
 
     .row.justify-content-center.mb-5
       .col-lg-5.order-lg-1.order-2
@@ -311,7 +332,7 @@
               img(src='@/assets/curso/temas/tema1/punto.svg', style="width: 10px" ,alt='').m-auto
           .col-lg-auto.col-9.titulo01(style="z-index:1")
             .p-1
-              h3.mb-0.ms-3 Ejemplo
+              h3.mb-0.ms-3 Ejemplo de títulos:
         ul.lista-ul--color.mb-4
           li(data-aos="fade-left")
             i.fas.fa-hand-point-right
@@ -325,6 +346,16 @@
       .col-lg-5.order-lg-2.order-1.mb-3.col-md-5.col-7
         figure(data-aos="fade-up") 
           img(src='@/assets/curso/temas/tema1/img-19.svg', alt='Imagen decorativa')
+
+    .row.align-items-center.mb-4(data-aos="zoom-in")
+      .col-auto.pe-0(style="z-index:2")
+        figure
+          img(src='@/assets/curso/temas/tema1/punto.svg', style="width: 10px" ,alt='').m-auto
+      .col-lg-auto.col-9.titulo02(style="z-index:1")
+        .p-1
+          h3.mb-0.ms-3 Ejercicio práctico 1:
+
+    p.mb-5 Por medio del siguiente video, podrá conocer paso a paso cómo insertar, formatear y titular tablas e imágenes en un documento de Word.
 
     .row.justify-content-center.align-items-center(data-aos="fade-down")           
       .col-lg-12
