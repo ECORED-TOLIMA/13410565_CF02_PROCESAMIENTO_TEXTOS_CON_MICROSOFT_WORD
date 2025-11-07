@@ -203,27 +203,27 @@
               .row.justify-content-center.mb-3
                 .col-7
                   img(src="@/assets/curso/temas/tema5/img-08.svg", alt="alt")
-              p.text-center 1. Ir a la pestaña #[b “Revisar”].
+              p.text-center 1. Diríjase a la pestaña  #[b “Revisar”].
             .tarjeta.bgslyder.p-4
               .row.justify-content-center.mb-3
                 .col-7
                   img(src="@/assets/curso/temas/tema5/img-09.svg", alt="alt")
-              p.text-center 2. Hacer clic en #[b “Comparar”].
+              p.text-center 2. Haga clic en #[b “Comparar”].
             .tarjeta.bgslyder.p-4
               .row.justify-content-center.mb-3
                 .col-7
                   img(src="@/assets/curso/temas/tema5/img-10.svg", alt="alt")
-              p.text-center 3. Seleccionar el documento original y el documento modificado.
+              p.text-center 3. Seleccione el documento original y el documento modificado.
             .tarjeta.bgslyder.p-4
               .row.justify-content-center.mb-3
                 .col-7
                   img(src="@/assets/curso/temas/tema5/img-11.svg", alt="alt")
-              p.text-center 4. Presionar #[b Aceptar] para generar la comparación.
+              p.text-center 4. Presione #[b Aceptar] para generar la comparación.
             .tarjeta.bgslyder.p-4
               .row.justify-content-center.mb-3
                 .col-7
                   img(src="@/assets/curso/temas/tema5/img-12.svg", alt="alt")
-              p.text-center 5. Revisar el documento combinado con las marcas de cambio visibles.
+              p.text-center 5. Revise el documento combinado con las marcas de cambio visibles.
 
     .row.justify-content-center.mb-3(data-aos="fade-left")
       .col-lg-10.col-12

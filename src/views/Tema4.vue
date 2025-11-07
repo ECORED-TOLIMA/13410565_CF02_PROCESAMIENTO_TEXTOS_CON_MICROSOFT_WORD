@@ -117,7 +117,7 @@
               li(data-aos="fade-down") 
                 .lista-ol--cuadro__vineta
                   span.text-bold 1
-                | Abrir un documento nuevo en Word.
+                | Abra un documento nuevo en Word.
               li(data-aos="fade-down")
                 .lista-ol--cuadro__vineta
                   span.text-bold 2
@@ -125,23 +125,23 @@
               li(data-aos="fade-down")
                 .lista-ol--cuadro__vineta
                   span.text-bold 3
-                | Aplicar los estilos de título que desee usar de manera estandarizada.
+                | Aplique los estilos de título que desee usar de manera estandarizada.
               li(data-aos="fade-down")
                 .lista-ol--cuadro__vineta
                   span.text-bold 4
-                | Insertar encabezados, pies de página, numeración y cualquier otro elemento fijo.
+                | Inserte encabezados, pies de página, numeración y cualquier otro elemento fijo.
               li(data-aos="fade-down")
                 .lista-ol--cuadro__vineta
                   span.text-bold 5
-                span Guardar el archivo seleccionando #[b “Archivo” → “Guardar como”].
+                span Guarde el archivo seleccionando #[b “Archivo” → “Guardar como”].
               li(data-aos="fade-down")
                 .lista-ol--cuadro__vineta
                   span.text-bold 6
-                span En el campo de tipo de archivo, seleccionar #[b “Plantilla de Word (*.dotx)”].
+                span En el campo de tipo de archivo, seleccione #[b “Plantilla de Word (*.dotx)”].
               li(data-aos="fade-down")
                 .lista-ol--cuadro__vineta
                   span.text-bold 7
-                | Asignar un nombre y confirmar la ubicación de guardado.
+                | Asigne un nombre y confirme la ubicación de guardado.
 
     .row.justify-content-center.mb-3(data-aos="fade-left")
       .col-lg-10.col-12
@@ -189,27 +189,27 @@
               .row.justify-content-center.mb-3
                 .col-7
                   img(src="@/assets/curso/temas/tema4/img-14.svg", alt="alt")
-              p.text-center Abrir Microsoft Word.
+              p.text-center Abra Microsoft Word.
             .tarjeta.bgslyder.p-4
               .row.justify-content-center.mb-3
                 .col-7
                   img(src="@/assets/curso/temas/tema4/img-15.svg", alt="alt")
-              p.text-center Seleccionar #[b “Archivo” → “Nuevo”].
+              p.text-center Seleccione #[b “Archivo” → “Nuevo”].
             .tarjeta.bgslyder.p-4
               .row.justify-content-center.mb-3
                 .col-7
                   img(src="@/assets/curso/temas/tema4/img-16.svg", alt="alt")
-              p.text-center En la galería, elegir la plantilla deseada (propia o predeterminada).
+              p.text-center En la galería, elija la plantilla deseada (propia o predeterminada).
             .tarjeta.bgslyder.p-4
               .row.justify-content-center.mb-3
                 .col-7
                   img(src="@/assets/curso/temas/tema4/img-17.svg", alt="alt")
-              p.text-center Completar la información necesaria dentro de los campos establecidos.
+              p.text-center Complete la información necesaria dentro de los campos establecidos.
             .tarjeta.bgslyder.p-4
               .row.justify-content-center.mb-3
                 .col-7
                   img(src="@/assets/curso/temas/tema4/img-18.svg", alt="alt")
-              p.text-center Guardar el documento final con un nombre distinto, para no sobrescribir la plantilla original.
+              p.text-center Guarde el documento final con un nombre distinto, para no sobrescribir la plantilla original.
             
     .row.justify-content-center.mb-5
       .col-xl-10

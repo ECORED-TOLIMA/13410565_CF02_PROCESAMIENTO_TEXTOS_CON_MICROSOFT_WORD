@@ -88,7 +88,7 @@
             li(data-aos="fade-down")
               .lista-ol--cuadro__vineta
                 span.text-bold 1
-              | Aplicar los estilos de título a todos los encabezados del documento (por ejemplo, “Título 1” para secciones principales, “Título 2” para subsecciones, etc.).
+              | Aplique los estilos de título a todos los encabezados del documento (por ejemplo, “Título 1” para secciones principales, “Título 2” para subsecciones, etc.).
             li(data-aos="fade-down")
               .lista-ol--cuadro__vineta
                 span.text-bold 2
@@ -191,7 +191,7 @@
               .row.justify-content-center.mb-3
                 .col-7
                   img(src="@/assets/curso/temas/tema3/img-13.svg", alt="alt")
-              p.text-center 3. En el cuadro de diálogo, definir cuántos niveles de títulos desea incluir.
+              p.text-center 3. En el cuadro de diálogo, defina cuántos niveles de títulos desea incluir.
             .tarjeta.bgslyder.p-4
               .row.justify-content-center.mb-3
                 .col-7
@@ -201,7 +201,7 @@
               .row.justify-content-center.mb-3
                 .col-7
                   img(src="@/assets/curso/temas/tema3/img-15.svg", alt="alt")
-              p.text-center 5. Confirmar con #[b Aceptar].
+              p.text-center 5. Confirme con #[b Aceptar].
 
     .row.justify-content-center.mb-3(data-aos="fade-left")
       .col-lg-10.col-12

@@ -242,9 +242,18 @@ export default {
   ],
   glosario: [
     {
+      termino: 'Ajustar texto',
+      significado:
+        'afunción que permite definir cómo fluye el texto alrededor de una imagen u objeto.',
+    },
+    {
+      termino: 'Bibliografía',
+      significado: 'lista de todas las fuentes citadas en un documento.',
+    },
+    {
       termino: 'Comentarios',
       significado:
-        'anotaciones o notas que se añaden a un documento para hacer sugerencias, preguntas o correcciones sin alterar el texto original.',
+        'anotaciones visibles en el margen para dar retroalimentación sin alterar el texto original.',
     },
     {
       termino: 'Comparar documentos',
@@ -255,6 +264,10 @@ export default {
       termino: 'Control de cambios',
       significado:
         'registro visible de inserciones, eliminaciones y modificaciones realizadas a un documento.',
+    },
+    {
+      termino: 'DOTX',
+      significado: 'extensión de archivo para plantillas de Word sin macros.',
     },
     {
       termino: 'Estilo de título',
@@ -269,7 +282,7 @@ export default {
     {
       termino: 'Fuente bibliográfica',
       significado:
-        'recurso de donde se extrae información (libro, artículo, <em>web</em>, etc.).',
+        'recurso de donde se extrae información (libro, artículo, web, etc.).',
     },
     {
       termino: 'Gestor de fuentes',
@@ -293,57 +306,48 @@ export default {
       termino: 'Tabla de contenido',
       significado: 'índice automático generado a partir de estilos de título.',
     },
+    {
+      termino: 'Título de figura',
+      significado:
+        'leyenda breve y numerada que identifica una figura o tabla.',
+    },
   ],
   referencias: [
     {
-      referencia:
-        'Microsoft. (2023). Agregar citas y una bibliografía en Word. Microsoft Support.',
-      link: 'https://support.microsoft.com',
+      referencia: 'Microsoft Learn. (2024). Imágenes y diagramas en Word.',
     },
     {
       referencia:
-        'Microsoft. (2023). Comparar y combinar documentos. Microsoft Support.',
-      link: 'https://support.microsoft.com',
+        'Microsoft Learn. (2024). Insert and manage comments in Word.',
     },
     {
       referencia:
-        'Microsoft. (2023). Insertar una tabla de contenido en Word. Microsoft Support.',
-      link: 'https://support.microsoft.com',
+        'Microsoft Learn. (2024). Working with heading styles in Word.',
+    },
+    {
+      referencia: 'Microsoft Learn. (2024). Working with templates in Word.',
     },
     {
       referencia:
-        'Microsoft. (2023). Insertar y dar formato a tablas e imágenes. Microsoft Support.',
-      link: 'https://support.microsoft.com',
+        'Microsoft Support. (2023). Agregar citas y una bibliografía en Word.',
+    },
+    {
+      referencia: 'Microsoft Support. (2023). Comparar y combinar documentos.',
     },
     {
       referencia:
-        'Microsoft. (2023). Rastrear cambios en Word. Microsoft Support.',
-      link: 'https://support.microsoft.com',
+        'Microsoft Support. (2023). Insertar una tabla de contenido en Word.',
     },
     {
       referencia:
-        'Microsoft. (2023). Rastrear cambios, comentarios y comparar documentos. Microsoft Support.',
-      link: 'https://support.microsoft.com',
+        'Microsoft Support. (2023). Insertar y dar formato a tablas e imágenes.',
+    },
+    {
+      referencia: 'Microsoft Support. (2023). Rastrear cambios en Word.',
     },
     {
       referencia:
-        'Microsoft. (2024). Imágenes y diagramas en Word. Microsoft Learn.',
-      link: 'https://learn.microsoft.com',
-    },
-    {
-      referencia:
-        'Microsoft. (2024). Insert and manage comments in Word. Microsoft Learn.',
-      link: 'https://learn.microsoft.com',
-    },
-    {
-      referencia:
-        'Microsoft. (2024). Working with heading styles in Word. Microsoft Learn.',
-      link: 'https://learn.microsoft.com',
-    },
-    {
-      referencia:
-        'Microsoft. (2024). Working with templates in Word. Microsoft Learn.',
-      link: 'https://learn.microsoft.com',
+        'Microsoft Support. (2023). Rastrear cambios, comentarios y comparar documentos.',
     },
   ],
   creditos: [
@@ -408,11 +412,6 @@ export default {
         },
         {
           nombre: 'Gilberto Junior Rodríguez Rodríguez',
-          cargo: 'Animador y productor audiovisual',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
-        },
-        {
-          nombre: 'Ernesto Navarro Jaimes',
           cargo: 'Animador y productor audiovisual',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },

@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-lg-12.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. ")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="Esquema de la síntesis del componente formativo que representa un diagrama sobre la aplicación de normas de estilo en Microsoft Word, donde se agrupan los apartados “Tablas y Figuras”, “Referencias y Bibliografía”, “Tablas de contenido”, “Plantillas” y “Herramientas de revisión”, cada uno con sus subtemas que constituyen las funciones principales, como inserción de tablas, gestión de fuentes bibliográficas, creación de plantillas y uso del control de cambios.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
