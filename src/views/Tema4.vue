@@ -121,7 +121,7 @@
               li(data-aos="fade-down")
                 .lista-ol--cuadro__vineta
                   span.text-bold 2
-                | Configurar márgenes, orientación de página y espaciado según sus necesidades.
+                | Configure márgenes, orientación de página y espaciado según sus necesidades.
               li(data-aos="fade-down")
                 .lista-ol--cuadro__vineta
                   span.text-bold 3

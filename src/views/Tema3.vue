@@ -181,12 +181,12 @@
               .row.justify-content-center.mb-3
                 .col-7
                   img(src="@/assets/curso/temas/tema3/img-11.svg", alt="alt")
-              p.text-center 1. Hacer clic sobre la tabla existente.
+              p.text-center 1. Haga clic sobre la tabla existente.
             .tarjeta.bgslyder.p-4
               .row.justify-content-center.mb-3
                 .col-7
                   img(src="@/assets/curso/temas/tema3/img-12.svg", alt="alt")
-              p.text-center 2. Seleccionar la opción #[b “Tabla de contenido personalizada…”].
+              p.text-center 2. Seleccione la opción #[b “Tabla de contenido personalizada…”].
             .tarjeta.bgslyder.p-4
               .row.justify-content-center.mb-3
                 .col-7

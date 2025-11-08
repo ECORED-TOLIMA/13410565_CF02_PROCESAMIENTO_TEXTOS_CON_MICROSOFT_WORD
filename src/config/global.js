@@ -139,7 +139,7 @@ export default {
           },
           {
             numero: '5.2',
-            titulo: 'Comparación de documentos',
+            titulo: 'Comentarios',
             hash: 't_5_2',
           },
         ],
