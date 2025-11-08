@@ -142,6 +142,11 @@ export default {
             titulo: 'Comentarios',
             hash: 't_5_2',
           },
+          {
+            numero: '5.3',
+            titulo: 'Comparación de documentos',
+            hash: 't_5_3',
+          },
         ],
       },
     ],
