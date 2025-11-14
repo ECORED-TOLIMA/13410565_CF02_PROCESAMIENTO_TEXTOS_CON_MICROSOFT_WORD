@@ -247,19 +247,19 @@
             li(data-aos="fade-down") 
               .lista-ol--cuadro__vineta
                 span.text-bold 1
-              | Hacer  clic derecho sobre la tabla de contenido.
+              | Haga  clic derecho sobre la tabla de contenido.
             li(data-aos="fade-down") 
               .lista-ol--cuadro__vineta
                 span.text-bold 2
-              span Seleccionar #[b “Actualizar campos”].
+              span Seleccione #[b “Actualizar campos”].
             li(data-aos="fade-down") 
               .lista-ol--cuadro__vineta
                 span.text-bold 3
-              | Elegir entre actualizar solo los números de página o actualizar toda la tabla.
+              | Elija entre actualizar solo los números de página o actualizar toda la tabla.
             li(data-aos="fade-down") 
               .lista-ol--cuadro__vineta
                 span.text-bold 4
-              | Confirmar para que los cambios se apliquen automáticamente.
+              | Confirme para que los cambios se apliquen automáticamente.
 
     .row.justify-content-center.mb-3(data-aos="fade-left")
       .col-lg-10.col-12
@@ -302,7 +302,7 @@
       .col-lg-12
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/vdPrCjWJSHo?si=X4NxENRo3LLXAua_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/tpe0jd_vxrw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
 

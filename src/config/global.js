@@ -319,40 +319,34 @@ export default {
   ],
   referencias: [
     {
-      referencia: 'Microsoft Learn. (2024). Imágenes y diagramas en Word.',
+      referencia:
+        'Microsoft Learn. (2023). <em>Agregar citas y una bibliografía en Word.</em> Microsoft.',
+      link:
+        'https://support.microsoft.com/es-es/office/crear-una-bibliografía-citas-y-referencias-17686589-4824-4940-9c69-342c289fa2a5',
     },
     {
       referencia:
-        'Microsoft Learn. (2024). Insert and manage comments in Word.',
+        'Microsoft Learn. (2023). <em>Comparar y combinar documentos en Word.</em> Microsoft.',
+      link:
+        'https://support.microsoft.com/es-es/topic/comparar-y-combinar-dos-versiones-de-un-documento-f5059749-a797-4db7-a8fb-b3b27eb8b87e',
     },
     {
       referencia:
-        'Microsoft Learn. (2024). Working with heading styles in Word.',
-    },
-    {
-      referencia: 'Microsoft Learn. (2024). Working with templates in Word.',
-    },
-    {
-      referencia:
-        'Microsoft Support. (2023). Agregar citas y una bibliografía en Word.',
-    },
-    {
-      referencia: 'Microsoft Support. (2023). Comparar y combinar documentos.',
+        'Microsoft Support. (2023). <em>Insertar una tabla de contenido en Word.</em> Microsoft.',
+      link:
+        'https://support.microsoft.com/es-es/office/insertar-una-tabla-de-contenido-882e8564-0edb-435e-84b5-1d8552ccf0c0',
     },
     {
       referencia:
-        'Microsoft Support. (2023). Insertar una tabla de contenido en Word.',
+        'Microsoft Support. (2023). <em>Rastrear cambios en Word.</em> Microsoft.',
+      link:
+        'https://support.microsoft.com/es-es/office/rastrear-cambios-en-word-197ba630-0f5f-4a8e-9a77-3712475e806a',
     },
     {
       referencia:
-        'Microsoft Support. (2023). Insertar y dar formato a tablas e imágenes.',
-    },
-    {
-      referencia: 'Microsoft Support. (2023). Rastrear cambios en Word.',
-    },
-    {
-      referencia:
-        'Microsoft Support. (2023). Rastrear cambios, comentarios y comparar documentos.',
+        'Microsoft Support. (2023). <em>Rastrear cambios, comentarios y comparar documentos.</em> Microsoft.',
+      link:
+        'https://support.microsoft.com/es-es/office/track-changes-and-view-add-or-edit-comments-56343a35-b64c-4aeb-ac5b-d1bdb979490a',
     },
   ],
   creditos: [
