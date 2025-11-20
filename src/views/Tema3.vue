@@ -92,19 +92,19 @@
             li(data-aos="fade-down")
               .lista-ol--cuadro__vineta
                 span.text-bold 2
-              | Colocar el cursor en el lugar donde desea insertar la tabla.
+              | Coloque el cursor en el lugar donde desea insertar la tabla.
             li(data-aos="fade-down")
               .lista-ol--cuadro__vineta
                 span.text-bold 3
-              span Ir a la pestaña #[b “Referencias”] en la cinta de opciones.
+              span Diríjase a la pestaña #[b “Referencias”] en la cinta de opciones.
             li(data-aos="fade-down")
               .lista-ol--cuadro__vineta
                 span.text-bold 4
-              span Hacer clic en #[b “Tabla de contenido”].
+              span Haga clic en #[b “Tabla de contenido”].
             li(data-aos="fade-down")
               .lista-ol--cuadro__vineta
                 span.text-bold 5
-              | Seleccionar uno de los estilos automáticos predeterminados.
+              | Seleccione uno de los estilos automáticos predeterminados.
             li(data-aos="fade-down")
               .lista-ol--cuadro__vineta
                 span.text-bold 5

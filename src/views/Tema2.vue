@@ -12,7 +12,7 @@
         figure
           img(src='@/assets/curso/temas/tema2/img-01.svg', alt='Imagen decorativa')
       .col-lg-9.mb-lg-0.mb-3(data-aos="fade-left")
-        p.mb-4 Cuando se elaboran documentos académicos, informes técnicos, trabajos escritos o artículos, es frecuente incluir información obtenida de otras fuentes, como libros, artículos, sitios #[em web] o informes digitales. Para #[b dar crédito a las fuentes consultadas] y mantener un estilo de citación ordenado, Microsoft Word incluye un #[b gestor de referencias integrado].
+        p.mb-4 Cuando se elaboran documentos académicos, informes técnicos, trabajos escritos o artículos, es frecuente incluir información obtenida de otras fuentes: libros, artículos, sitios #[em web], informes digitales, entre otros. Para #[b dar crédito a las fuentes consultadas] y mantener un estilo de citación ordenado, Microsoft Word incluye un #[b gestor de referencias integrado].
         .cajon.cajon.color-primario.p-4.mb-4
           p.mb-0 Este gestor permite #[b almacenar la información bibliográfica] de cada fuente en un solo lugar, reutilizarla en diferentes documentos y generar automáticamente una lista de referencias al final. De esta manera, se evitan errores de transcripción, se ahorra tiempo y se garantiza un formato uniforme en todas las citas.
 
@@ -107,7 +107,7 @@
               li(data-aos="fade-down")
                 .lista-ol--cuadro__vineta
                   span.text-bold 5
-                span Confirmar con #[b “Aceptar”].
+                span Confirmar con #[b Aceptar].
 
         .col-lg-4.col-8.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="fade-left")
           figure
@@ -161,7 +161,7 @@
             li(data-aos="fade-down") 
               .lista-ol--cuadro__vineta
                 span.text-bold 1
-              | Colocar el cursor en el lugar del texto donde debe aparecer la cita.
+              | Ubicar el cursor en el lugar del texto donde debe aparecer la cita.
             li(data-aos="fade-down") 
               .lista-ol--cuadro__vineta
                 span.text-bold 2

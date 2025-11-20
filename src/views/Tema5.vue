@@ -87,11 +87,11 @@
               li(data-aos="fade-down") 
                 .lista-ol--cuadro__vineta
                   span.text-bold 1
-                span Ir a la pestaña #[b “Revisar”] en la cinta de opciones.
+                span Diríjase a la pestaña #[b “Revisar”] en la cinta de opciones.
               li(data-aos="fade-down") 
                 .lista-ol--cuadro__vineta
                   span.text-bold 2
-                span Hacer clic en #[b “Control de cambios”] para activarlo.
+                span Haga clic en #[b “Control de cambios”] para activarlo.
               li(data-aos="fade-down")
                 .lista-ol--cuadro__vineta
                   span.text-bold 3

@@ -21,7 +21,7 @@ export default {
         {
           id: 1,
           texto:
-            'Los estilos permiten aplicar formato consistente y reutilizable a lo largo de todo el documento.',
+            'Las tablas permiten organizar información en filas y columnas dentro de un documento Word.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -37,14 +37,14 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Los estilos garantizan estandarización y facilitan cambios globales.',
+            '¡Muy bien! Las tablas ayudan a estructurar la información de forma clara y ordenada.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 2,
           texto:
-            'Un estilo de carácter puede cambiar la alineación y la sangría del párrafo.',
+            'Las imágenes insertadas en Word no se pueden ajustar con respecto al texto.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
@@ -60,60 +60,59 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Alineación y sangría son atributos del párrafo, no del estilo de carácter.',
+            '¡Muy bien! Las tablas ayudan a estructurar la información de forma clara y ordenada.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 3,
-          texto:
-            'El interlineado controla el espacio entre líneas del mismo párrafo y el espaciado antes/después controla el espacio entre párrafos.',
+          texto: 'El título de una tabla debe ubicarse siempre debajo de ella.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto: 'Verdadero',
-              esCorrecta: true,
+              esCorrecta: false,
             },
             {
               id: 'b',
               texto: 'Falso',
-              esCorrecta: false,
+              esCorrecta: true,
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Diferenciar ambos parámetros mejora la legibilidad.',
+            '¡Muy bien! Las tablas ayudan a estructurar la información de forma clara y ordenada.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 4,
           texto:
-            'Un salto de página permite cambiar la orientación o los márgenes.',
+            'Para insertar una cita es necesario registrar primero la fuente bibliográfica.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto: 'Verdadero',
-              esCorrecta: false,
+              esCorrecta: true,
             },
             {
               id: 'b',
               texto: 'Falso',
-              esCorrecta: true,
+              esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Para cambiar propiedades de página se usa salto de sección.',
+            '¡Muy bien! Las tablas ayudan a estructurar la información de forma clara y ordenada.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 5,
           texto:
-            'Los encabezados y pies pertenecen a cada sección y pueden ser diferentes entre secciones.',
+            'Word permite generar bibliografías automáticas a partir de las fuentes almacenadas.',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
@@ -129,14 +128,14 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Esto permite encabezados/pies distintos por capítulos.',
+            '¡Muy bien! Las tablas ayudan a estructurar la información de forma clara y ordenada.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 6,
           texto:
-            'Para omitir numeración en la portada, se usa primera página diferente.',
+            'El estilo de citación APA es uno de los disponibles en el gestor de fuentes de Word.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -152,49 +151,48 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Es la forma recomendada de excluir numeración en portada.',
+            '¡Muy bien! Las tablas ayudan a estructurar la información de forma clara y ordenada.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 7,
-          texto:
-            'Para tener preliminares con números romanos y el cuerpo con arábigos se requieren al menos dos secciones.',
+          texto: 'Una tabla de contenido se genera únicamente de forma manual.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto: 'Verdadero',
-              esCorrecta: true,
+              esCorrecta: false,
             },
             {
               id: 'b',
               texto: 'Falso',
-              esCorrecta: false,
+              esCorrecta: true,
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. La numeración por sección permite reinicios y formatos distintos.',
+            '¡Muy bien! Las tablas ayudan a estructurar la información de forma clara y ordenada.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 8,
           texto:
-            'La opción Vincular a la anterior debe estar activada cuando se desean encabezados/pies diferentes entre secciones.',
+            'Para que una tabla de contenido funcione, es necesario aplicar estilos de título en el texto.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto: 'Verdadero',
-              esCorrecta: false,
+              esCorrecta: true,
             },
             {
               id: 'b',
               texto: 'Falso',
-              esCorrecta: true,
+              esCorrecta: false,
             },
           ],
           mensaje_correcto:
@@ -204,30 +202,30 @@ export default {
         },
         {
           id: 9,
-          texto:
-            'La Tabla de contenido se actualiza automáticamente si se usan los estilos Título 1-3.',
+          texto: 'La tabla de contenido no se puede actualizar una vez creada.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto: 'Verdadero',
-              esCorrecta: true,
+              esCorrecta: false,
             },
             {
               id: 'b',
               texto: 'Falso',
-              esCorrecta: false,
+              esCorrecta: true,
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. La tabla de contenido depende de los estilos de título.',
+            '¡Muy bien! Las tablas ayudan a estructurar la información de forma clara y ordenada.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 10,
-          texto: 'Los estilos de párrafo pueden incluir numeración o viñetas.',
+          texto:
+            'Las plantillas permiten estandarizar el formato de diferentes documentos.',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
@@ -243,14 +241,13 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. La numeración puede formar parte del estilo.',
+            '¡Muy bien! Las tablas ayudan a estructurar la información de forma clara y ordenada.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 11,
-          texto:
-            'Para cambiar a dos columnas en un tramo basta con un salto de página.',
+          texto: 'Las plantillas no se pueden reutilizar.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -266,14 +263,14 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Se requiere salto de sección (continuo) y luego configurar columnas.',
+            '¡Muy bien! Las tablas ayudan a estructurar la información de forma clara y ordenada.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 12,
           texto:
-            'Guardar una plantilla con estilos institucionales en .docx permite reutilizarlos.',
+            'El control de cambios permite registrar modificaciones realizadas por uno o varios usuarios.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
@@ -289,14 +286,14 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. La plantilla estandariza la producción documental.',
+            '¡Muy bien! Las tablas ayudan a estructurar la información de forma clara y ordenada.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 13,
           texto:
-            'El comprobador de accesibilidad detecta, entre otros, la falta de texto alternativo en imágenes.',
+            'Los comentarios en Word permiten anotar observaciones sin alterar el texto original.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -312,14 +309,14 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Es clave para la accesibilidad.',
+            '¡Muy bien! Las tablas ayudan a estructurar la información de forma clara y ordenada.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 14,
           texto:
-            'Para reiniciar la numeración en una nueva sección, es necesario desvincular el pie de la sección anterior.',
+            'La función “Comparar documentos” permite identificar diferencias entre dos versiones de un mismo archivo.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
@@ -335,14 +332,13 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Así cada sección controla su numeración.',
+            '¡Muy bien! Las tablas ayudan a estructurar la información de forma clara y ordenada.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 15,
-          texto:
-            'El espaciado entre párrafos debe simularse con líneas en blanco.',
+          texto: 'No es posible personalizar el formato de una tabla de Word.',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
@@ -358,14 +354,14 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Use el parámetro <b>Espaciado antes/después</b> del cuadro Párrafo.',
+            '¡Muy bien! Las tablas ayudan a estructurar la información de forma clara y ordenada.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 16,
           texto:
-            'Es posible aplicar un estilo de párrafo a varios párrafos seleccionados simultáneamente.',
+            'Las figuras y tablas deben incluir títulos para facilitar su identificación.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -381,36 +377,37 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Ahorra tiempo y mantiene consistencia.',
+            '¡Muy bien! Las tablas ayudan a estructurar la información de forma clara y ordenada.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 17,
-          texto: 'Los estilos sirven para imponer la ortografía del documento.',
+          texto:
+            'Para insertar una imagen desde la web es necesario usar la opción “Imágenes en línea”.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto: 'Verdadero',
-              esCorrecta: false,
+              esCorrecta: true,
             },
             {
               id: 'b',
               texto: 'Falso',
-              esCorrecta: true,
+              esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. La ortografía la gestiona el corrector, no los estilos.',
+            '¡Muy bien! Las tablas ayudan a estructurar la información de forma clara y ordenada.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 18,
           texto:
-            'Las tabulaciones y la regla permiten alinear texto y cifras sin insertar múltiples espacios.',
+            'Word permite aplicar diferentes niveles jerárquicos en la tabla de contenido.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -426,14 +423,14 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Es la forma apropiada de alineación precisa.',
+            '¡Muy bien! Las tablas ayudan a estructurar la información de forma clara y ordenada.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 19,
           texto:
-            'Los encabezados/pies se insertan desde Insertar → Encabezado/Pie y pueden contener el número de página.',
+            'Las referencias bibliográficas pueden ser editadas después de agregarlas al gestor de fuentes.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
@@ -449,30 +446,30 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Los campos automatizan numeración y otros datos.',
+            '¡Muy bien! Las tablas ayudan a estructurar la información de forma clara y ordenada.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 20,
           texto:
-            'Los estilos solo afectan la apariencia, no influyen en la navegación ni en la accesibilidad.',
+            'La función “Control de cambios” permite aprobar o rechazar modificaciones realizadas en un documento de Word.',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto: 'Verdadero',
-              esCorrecta: false,
+              esCorrecta: true,
             },
             {
               id: 'b',
               texto: 'Falso',
-              esCorrecta: true,
+              esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Los estilos de título habilitan navegación, tabla de contenido y mejoran accesibilidad.',
+            '¡Muy bien! Las tablas ayudan a estructurar la información de forma clara y ordenada.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },

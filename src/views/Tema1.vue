@@ -12,7 +12,7 @@
         figure
           img(src='@/assets/curso/temas/tema1/img-01.png', alt='Imagen decorativa')
     
-    p.mb-5(data-aos="fade-left") En la elaboración de documentos, las tablas y figuras permiten organizar y presentar la información de forma clara y visualmente comprensible. Las tablas facilitan la estructuración de datos en filas y columnas, mientras que las figuras ayudan a ilustrar ideas, procesos o ejemplos que complementan el contenido textual. Su uso adecuado mejora la presentación, permite identificar patrones de información y facilita la lectura, especialmente en documentos extensos o con alto contenido informativo. Gracias a estas herramientas, es posible crear informes, trabajos escritos, presentaciones y otros documentos con un formato más ordenado y profesional.
+    p.mb-5(data-aos="fade-left") En la elaboración de documentos, las tablas y figuras permiten organizar y presentar información de forma clara y visualmente comprensible. Las tablas facilitan la estructuración de datos en filas y columnas, mientras que las figuras ayudan a ilustrar ideas, procesos o ejemplos que complementan el contenido textual. Su uso adecuado mejora la presentación, permite identificar patrones de información y facilita la lectura, especialmente en documentos extensos o con alto contenido informativo. Gracias a estas herramientas, es posible crear informes, trabajos escritos, presentaciones y otros documentos con un formato más ordenado y profesional.
 
     .row.justify-content-center.mb-4
       .col-lg-4.col-sm-7.col-10.mb-4(data-aos="fade-right")
@@ -74,10 +74,10 @@
       h2#t_1_1 1.1. Inserción de tablas
 
     .bg-c1.px-md-5.px-4.mb-0
-      p(data-aos="fade-left") Las tablas son uno de los elementos más utilizados para #[b organizar datos y texto de manera estructurada]. A diferencia del texto corrido, permiten visualizar la información por categorías, fechas, valores, nombres, pasos de un proceso o cualquier otro criterio que requiera una organización clara. 
+      p(data-aos="fade-left") Las tablas son uno de los elementos más utilizados para #[b organizar datos y texto de manera estructurada]. A diferencia de un texto corrido, permiten visualizar la información por categorías, fechas, valores, nombres, pasos de un proceso o cualquier otro criterio que requiera organización clara. 
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-7.order-lg-1.order-2
-          p(data-aos="fade-right") Para insertar una tabla básica en Microsoft Word, es posible usar la cuadrícula visual que aparece al abrir la opción correspondiente. Este método permite definir, de forma rápida el número de filas y columnas que se necesitan.
+          p(data-aos="fade-right") Para insertar una tabla básica en Microsoft Word, es posible usar la cuadrícula visual que aparece al abrir la opción correspondiente. Este método permite definir de forma rápida el número de filas y columnas que se necesitan.
           .cajon.cajon.C01.p-1.mb-3
             ol.lista-ol--cuadro.lista-ol--separador
               li(data-aos="fade-down") 
@@ -135,8 +135,8 @@
     .titulo-segundo.color-acento-contenido
       h2#t_1_2 1.2. Formato y diseño de tablas
 
-    p(data-aos="fade-left") Una tabla no solo organiza datos, sino que también puede mejorar considerablemente la #[b presentación visual] de un documento. Word ofrece herramientas para personalizar bordes, colores, estilos y alineaciones, lo que permite que la tabla se adapte al propósito del texto.  
-    p(data-aos="fade-right") Al hacer clic en cualquier parte de la tabla, aparecen dos pestañas adicionales en la cinta de opciones: #[b “Diseño de tabla”] y #[b “Disposición de tabla”]. Desde allí, se pueden aplicar estilos predefinidos o personalizar manualmente.
+    p(data-aos="fade-left") Una tabla no solo organiza datos, también puede mejorar considerablemente la #[b presentación visual] de un documento. Word ofrece herramientas para personalizar bordes, colores, estilos y alineaciones, lo que permite que la tabla se adapte al propósito del texto.  
+    p(data-aos="fade-right") Al hacer clic en cualquier parte de la tabla, aparecen dos pestañas adicionales en la cinta de opciones: #[b “Diseño de tabla”] y #[b “Disposición de la tabla”]. Desde allí, se pueden aplicar estilos predefinidos o personalizar manualmente.
     p.mb-5(data-aos="fade-left") Algunas acciones comunes para mejorar la apariencia de una tabla son:
 
     .tarjeta--BG01.px-md-5.p-lg-0.p-4.mb-5
@@ -211,7 +211,7 @@
         p.mb-0 Además de las tablas, Word permite insertar #[b figuras e imágenes] para ilustrar ideas o complementar la información escrita. Estas imágenes pueden provenir del equipo del usuario, de internet o de otros documentos.
         br
         br
-        p Al incluir imágenes, es importante cuidar su tamaño, resolución y ubicación, de modo que no interrumpan el flujo del texto. Una imagen clara y bien ubicada puede transmitir más información que un párrafo extenso.
+        p Al incluir imágenes es importante cuidar su tamaño, resolución y ubicación, de modo que no interrumpan el flujo del texto. Una imagen clara y bien ubicada puede transmitir más información que un párrafo extenso.
 
     .bg-c1.px-md-5.px-4.mb-0
       .row.justify-content-center.mb-4(data-aos="fade-right")
@@ -270,12 +270,12 @@
     Separador
 
     .titulo-segundo.color-acento-contenido
-      h2#t_1_4 1.4. Creación de títulos, fuentes de figuras y tablas
+      h2#t_1_4 1.4 Creación de título y fuentes de figuras y tablas
 
     .bg-c1.px-md-5.px-4.mb-0
       .row.justify-content-center.mb-4(data-aos="fade-right")
-        p Una práctica recomendada al trabajar con tablas o figuras es #[b asignarles un título o leyenda], ya que esto permite identificarlas fácilmente, hacer referencias dentro del documento y generar automáticamente un índice de ilustraciones, si es necesario.
-        p Word ofrece una herramienta sencilla para insertar títulos numerados, tanto en tablas como en figuras. Esto ayuda a mantener un orden visual y facilita la comprensión cuando hay varios elementos gráficos en un mismo texto.  
+        p Una práctica recomendada al trabajar con tablas o figuras es #[b asignarles un título o leyenda]. Esto permite identificarlas fácilmente, hacer referencias dentro del documento y generar automáticamente un índice de ilustraciones si es necesario.
+        p Word ofrece una herramienta sencilla para insertar títulos numerados, tanto en tablas como en figuras. Esto mantiene un orden visual y facilita la comprensión cuando hay varios elementos gráficos en un mismo texto.  
         p Los pasos para insertar un título son:
 
       .row.justify-content-center

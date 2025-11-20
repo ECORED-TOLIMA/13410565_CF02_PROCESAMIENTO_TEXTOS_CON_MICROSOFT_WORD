@@ -210,7 +210,7 @@ export default {
         'Microsoft Learn. (2024). <em>Imágenes y diagramas en Word.</em>',
       tipo: 'Artículo técnico',
       link:
-        'https://support.microsoft.com/es-es/office/crear-un-diagrama-de-flujo-con-smartart-30f87402-ba3d-48c8-8e9f-a66bcee7e5aa',
+        'https://support.microsoft.com/es-es/office/insertar-im%C3%A1genes-3c51edf4-22e1-460a-b372-9329a8724344',
     },
     {
       tema: '3. Referencias y bibliografía',
@@ -249,7 +249,7 @@ export default {
     {
       termino: 'Ajustar texto',
       significado:
-        'afunción que permite definir cómo fluye el texto alrededor de una imagen u objeto.',
+        'función que permite definir cómo fluye el texto alrededor de una imagen u objeto.',
     },
     {
       termino: 'Bibliografía',
